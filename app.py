@@ -1,5 +1,11 @@
 import streamlit as st
 
+
+st.set_page_config(
+    layout="centered",  # This ensures the page content is centered
+    initial_sidebar_state="collapsed",  # This hides the sidebar initially
+)
+
 # Navigation function
 def navigate(page):
     st.session_state['current_page'] = page
@@ -14,12 +20,12 @@ if 'logged_in' not in st.session_state:
 if 'is_admin' not in st.session_state:
     st.session_state['is_admin'] = False
 
-# Sidebar for navigation
-if st.session_state['logged_in']:
-    st.sidebar.button("Home", on_click=navigate, args=("Home",))
-    if not st.session_state['is_admin']:
-        st.sidebar.button("Search", on_click=navigate, args=("Search",))
-    st.sidebar.button("Logout", on_click=navigate, args=("Login",))
+# # Sidebar for navigation
+# if st.session_state['logged_in']:
+#     st.sidebar.button("Home", on_click=navigate, args=("Home",))
+#     if not st.session_state['is_admin']:
+#         st.sidebar.button("Search", on_click=navigate, args=("Search",))
+#     st.sidebar.button("Logout", on_click=navigate, args=("Login",))
 
 # Load the appropriate page
 if st.session_state['current_page'] == 'Login':
@@ -37,3 +43,10 @@ elif st.session_state['current_page'] == 'Search':
 elif st.session_state['current_page'] == 'Admin':
     import pages.admin as admin
     admin.show()
+elif st.session_state['current_page'] == 'PlanAndAnalytics':
+    import pages.plan_details_analytics as plan_details_analytics
+    plan_details_analytics.show()
+
+elif st.session_state['current_page'] == 'ChurnPrediction':
+    import pages.churn_prediction as churn_prediction
+    churn_prediction.show()
