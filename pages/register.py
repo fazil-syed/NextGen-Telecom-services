@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from utils.auth import create_user  # Import the function from auth.py
+from utils.auth import create_user 
 import uuid
 from utils.model import predict_plan, recommend_plan
 def show():
@@ -19,10 +19,10 @@ def show():
     
     if st.button("Register"):
         try:
-            # Store user credentials in the database
+           
             create_user(customer_id, email, password)
             st.success("Registration Successful!")
-            # Add the customer details to the dataset
+           
             plan = recommend_plan(age,gender,location,education_level)
             add_to_dataset(customer_id, age, gender, location, education_level,plan)
             st.session_state['current_page'] = 'Login'
@@ -33,15 +33,14 @@ def show():
 
 def add_to_dataset(customer_id, age, gender, location, 
                   education_level,plan):
-    # Define the correct column order
+   
     columns = [
         'Customer ID', 'Age', 'Gender', 'Location',  'Education Level', 'BestServiceName'
     ]
     
-    # Read the existing dataset
-    df = pd.read_csv('plans_dataset.csv')
     
-    # Create a new DataFrame with the same columns and order
+    df = pd.read_csv('plans_dataset.csv')
+  
     new_entry = pd.DataFrame([{
         'Customer ID': customer_id,
         'Age': age,
@@ -51,10 +50,9 @@ def add_to_dataset(customer_id, age, gender, location,
         'BestServiceName':plan
         
     }], columns=columns)
-    
-    # Concatenate the new entry with the existing DataFrame
+   
     df = pd.concat([df, new_entry], ignore_index=True)
     
-    # Write the updated DataFrame back to the CSV file
+    
     df.to_csv('plans_dataset.csv', index=False)
     st.success("Customer details added to the dataset!")

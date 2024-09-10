@@ -3,7 +3,7 @@ import streamlit as st
 def show():
     st.title("NextGen Telecom services")
 
-    # Display the welcome message
+   
     st.write(
         """
         Welcome to the Future of Telecom! 
@@ -16,20 +16,20 @@ def show():
         """
     )
     
-    # Check if the user is logged in
+    
     if st.session_state['is_admin']:
         if st.button("Go to Admin Page"):
-            # Code to navigate to search page (if using Streamlit's routing, you can use st.experimental_rerun())
-            st.session_state['current_page'] = 'Admin'  # Set the page state
+          
+            st.session_state['current_page'] = 'Admin'  
             st.rerun()
     elif 'customer_id' in st.session_state:
         
         if st.button("Find your best plan"):
-            # Code to navigate to search page (if using Streamlit's routing, you can use st.experimental_rerun())
-            st.session_state['current_page'] = 'Search'  # Set the page state
+            
+            st.session_state['current_page'] = 'Search'  
             st.rerun()
     else:
         if st.button("Login"):
-            # Code to navigate to login page (if using Streamlit's routing, you can use st.experimental_rerun())
-            st.session_state['current_page'] = 'Login'  # Set the page state
+            
+            st.session_state['current_page'] = 'Login'  
             st.rerun()

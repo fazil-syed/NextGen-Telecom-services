@@ -4,22 +4,22 @@ import pandas as pd
 def show():
     st.title("Plan Page")
 
-    # Retrieve customer ID from session state
+   
     customerid = st.session_state.get('customer_id')
 
-    # Check if a customer ID is available in session state
+   
     if customerid:
         customerid = customerid[0]
-        # Load the datasets
+       
         df_predictions = pd.read_csv('plans_dataset.csv')
         
 
-        # Filter the DataFrames to get the row with the matching CustomerID
+        
         result = df_predictions[df_predictions['Customer ID'] == customerid]
         
 
         if not result.empty:
-            # Display the basic details
+        
             st.write("**Customer Details:**")
             row_prediction = result.iloc[0]
             st.write(f"**Best Service Recommended:** {row_prediction['BestServiceName']}")

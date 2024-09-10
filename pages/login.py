@@ -10,7 +10,7 @@ def show():
 
     if st.button("Login"):
         if is_admin:
-            # Check if admin login
+          
             if email == 'saujanya@gmail.com' and password == 'saujanya':
                 st.session_state['logged_in'] = True
                 st.session_state['admin'] = True
@@ -20,7 +20,7 @@ def show():
             else:
                 st.error("Invalid admin email or password")
         else:
-            # Regular user login
+         
             customer_id = authenticate_user(email, password)
             if customer_id:
                 st.session_state['logged_in'] = True

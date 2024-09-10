@@ -2,15 +2,14 @@ import streamlit as st
 
 
 st.set_page_config(
-    layout="centered",  # This ensures the page content is centered
-    initial_sidebar_state="collapsed",  # This hides the sidebar initially
+    layout="centered",  
+    initial_sidebar_state="collapsed",  
 )
 
-# Navigation function
+
 def navigate(page):
     st.session_state['current_page'] = page
 
-# Initialize session state
 if 'current_page' not in st.session_state:
     st.session_state['current_page'] = 'Home'
 
@@ -20,14 +19,7 @@ if 'logged_in' not in st.session_state:
 if 'is_admin' not in st.session_state:
     st.session_state['is_admin'] = False
 
-# # Sidebar for navigation
-# if st.session_state['logged_in']:
-#     st.sidebar.button("Home", on_click=navigate, args=("Home",))
-#     if not st.session_state['is_admin']:
-#         st.sidebar.button("Search", on_click=navigate, args=("Search",))
-#     st.sidebar.button("Logout", on_click=navigate, args=("Login",))
 
-# Load the appropriate page
 if st.session_state['current_page'] == 'Login':
     import pages.login as login
     login.show()
