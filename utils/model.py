@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Load and preprocess the dataset
 def load_data():
@@ -139,3 +140,34 @@ def add_new_customer(customerInput):
     predict_plan()
     print(customerInput)
     print("Customer added successfully!")
+
+
+
+
+def recommend_plan(age, gender, location, education_level):
+    # Load the plans dataset
+    plans_df = pd.read_csv('plans_dataset.csv')
+    
+    # Prepare the input features of the new user
+    input_data = pd.DataFrame([[age, gender, location, education_level]], 
+                              columns=['Age', 'Gender', 'Location', 'Education Level'])
+    
+    # Encode the categorical variables in the dataset for similarity matching
+    label_encoders = {}
+    for column in ['Gender', 'Location', 'Education Level']:
+        le = LabelEncoder()
+        plans_df[column] = le.fit_transform(plans_df[column])
+        input_data[column] = le.transform(input_data[column])
+        label_encoders[column] = le
+    
+    # Calculate similarity between the new user and the customers in the dataset
+    features = ['Age', 'Gender', 'Location', 'Education Level']
+    similarity = cosine_similarity(input_data[features], plans_df[features])
+    
+    # Find the index of the most similar customer
+    most_similar_index = similarity.argmax()
+    
+    # Recommend the plan of the most similar customer
+    recommended_plan = plans_df.iloc[most_similar_index]['BestServiceName']
+    
+    return recommended_plan
