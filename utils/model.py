@@ -167,3 +167,9 @@ def recommend_plan(age, gender, location, education_level):
     recommended_plan = plans_df.iloc[most_similar_index]['BestServiceName']
     
     return recommended_plan
+
+
+def predict_churn(customer_ids):
+    churn_labels = np.random.randint(0, 2, size=len(customer_ids))
+
+    return churn_labels 

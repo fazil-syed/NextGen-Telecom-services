@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
+from utils.model import predict_churn
 from keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 from keras.utils import register_keras_serializable
 import tensorflow as tf
-
+import numpy as np
 def show():
 
 
@@ -51,7 +52,7 @@ def show():
 
         
         predicted_labels = (predictions > 0.5).astype(int)
-
+        predicted_labels = predict_churn(customer_ids)
         result_df = pd.DataFrame({
             'Customer ID': customer_ids,
             'Churn Label': predicted_labels.flatten()
