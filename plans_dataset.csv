@@ -1,1003 +1,1005 @@
-Customer ID,Age,Gender,Location,Education Level,BestServiceName
-1,56,Male,Miami,High School,Ultimate Plan
-2,69,Male,New York,Associate's,Ultimate Plan
-3,46,Female,Chicago,Bachelor's,Ultimate Plan
-4,32,Male,Los Angeles,Associate's,Ultimate Plan
-5,60,Male,Chicago,High School,Premium Plan
-6,25,Female,Miami,High School,Basic Plan
-7,78,Male,Los Angeles,Master's,Premium Plan
-8,38,Male,Houston,Bachelor's,Ultimate Plan
-9,56,Male,Chicago,Bachelor's,Basic Plan
-10,75,Male,Los Angeles,High School,Standard Plan
-11,36,Male,Chicago,Bachelor's,Premium Plan
-12,40,Female,Los Angeles,Master's,Ultimate Plan
-13,28,Male,New York,Associate's,Basic Plan
-14,28,Male,Chicago,Bachelor's,Premium Plan
-15,41,Male,Houston,High School,Basic Plan
-16,70,Male,Houston,Associate's,Standard Plan
-17,53,Male,Miami,Associate's,Basic Plan
-18,57,Female,Los Angeles,Master's,Premium Plan
-19,41,Male,Chicago,High School,Basic Plan
-20,20,Female,Miami,Bachelor's,Standard Plan
-21,39,Female,Chicago,High School,Ultimate Plan
-22,70,Male,Los Angeles,Associate's,Basic Plan
-23,19,Male,Houston,High School,Ultimate Plan
-24,41,Male,New York,Bachelor's,Basic Plan
-25,61,Male,Houston,Bachelor's,Standard Plan
-26,47,Female,Miami,Master's,Ultimate Plan
-27,55,Male,New York,Bachelor's,Standard Plan
-28,19,Male,Miami,Bachelor's,Basic Plan
-29,77,Male,Los Angeles,High School,Standard Plan
-30,38,Male,New York,High School,Ultimate Plan
-31,50,Male,Miami,Associate's,Ultimate Plan
-32,29,Male,Los Angeles,Master's,Ultimate Plan
-33,75,Female,Houston,High School,Premium Plan
-34,39,Female,Los Angeles,Bachelor's,Premium Plan
-35,78,Male,Chicago,Associate's,Standard Plan
-36,61,Male,Los Angeles,High School,Premium Plan
-37,42,Male,Los Angeles,Master's,Ultimate Plan
-38,66,Female,Chicago,Master's,Premium Plan
-39,44,Male,Miami,Associate's,Basic Plan
-40,76,Female,Miami,Associate's,Premium Plan
-41,59,Male,Los Angeles,Associate's,Standard Plan
-42,45,Male,Chicago,Associate's,Ultimate Plan
-43,77,Male,Chicago,Associate's,Basic Plan
-44,33,Male,Houston,Bachelor's,Ultimate Plan
-45,32,Female,Miami,Bachelor's,Ultimate Plan
-46,79,Female,New York,High School,Premium Plan
-47,79,Male,Miami,Master's,Premium Plan
-48,64,Male,Miami,Bachelor's,Standard Plan
-49,79,Female,Houston,Bachelor's,Basic Plan
-50,68,Female,New York,Bachelor's,Premium Plan
-51,61,Female,Houston,High School,Standard Plan
-52,72,Female,New York,Associate's,Standard Plan
-53,69,Male,Los Angeles,High School,Standard Plan
-54,74,Female,New York,Master's,Premium Plan
-55,20,Male,Houston,Master's,Standard Plan
-56,54,Female,Miami,Master's,Basic Plan
-57,68,Female,New York,Master's,Basic Plan
-58,24,Female,New York,Bachelor's,Ultimate Plan
-59,38,Female,Chicago,Bachelor's,Ultimate Plan
-60,26,Female,Miami,High School,Ultimate Plan
-61,56,Male,Los Angeles,Associate's,Ultimate Plan
-62,35,Male,Houston,Master's,Ultimate Plan
-63,21,Female,Los Angeles,High School,Premium Plan
-64,42,Female,Miami,Bachelor's,Standard Plan
-65,77,Male,New York,Bachelor's,Basic Plan
-66,31,Female,New York,Associate's,Basic Plan
-67,67,Female,Miami,Associate's,Basic Plan
-68,75,Male,New York,Associate's,Premium Plan
-69,26,Female,New York,High School,Premium Plan
-70,43,Female,New York,Bachelor's,Ultimate Plan
-71,70,Male,Houston,Bachelor's,Ultimate Plan
-72,19,Male,Houston,Associate's,Standard Plan
-73,37,Male,Chicago,Master's,Ultimate Plan
-74,45,Female,Los Angeles,Associate's,Standard Plan
-75,64,Male,Miami,High School,Basic Plan
-76,77,Male,Miami,Associate's,Premium Plan
-77,24,Male,Miami,Associate's,Standard Plan
-78,61,Male,Chicago,High School,Premium Plan
-79,78,Male,Houston,Associate's,Basic Plan
-80,25,Male,Chicago,Bachelor's,Premium Plan
-81,64,Female,Miami,Master's,Standard Plan
-82,52,Female,Los Angeles,Associate's,Standard Plan
-83,31,Male,New York,High School,Standard Plan
-84,34,Male,Houston,Master's,Standard Plan
-85,53,Male,Houston,High School,Basic Plan
-86,67,Female,Chicago,Master's,Basic Plan
-87,57,Female,Houston,Master's,Premium Plan
-88,21,Female,Miami,Associate's,Ultimate Plan
-89,19,Female,Miami,Bachelor's,Ultimate Plan
-90,79,Female,Chicago,Associate's,Standard Plan
-91,23,Female,Miami,High School,Standard Plan
-92,71,Female,Los Angeles,High School,Standard Plan
-93,59,Female,Chicago,Master's,Ultimate Plan
-94,21,Female,Los Angeles,Master's,Premium Plan
-95,71,Male,New York,Bachelor's,Ultimate Plan
-96,46,Male,Los Angeles,Associate's,Ultimate Plan
-97,35,Male,New York,High School,Ultimate Plan
-98,43,Male,New York,Master's,Ultimate Plan
-99,61,Female,Los Angeles,Bachelor's,Ultimate Plan
-100,51,Female,Chicago,High School,Basic Plan
-101,27,Male,Miami,Master's,Basic Plan
-102,79,Female,Miami,High School,Premium Plan
-103,53,Male,New York,Bachelor's,Standard Plan
-104,31,Female,New York,Bachelor's,Premium Plan
-105,48,Male,Chicago,High School,Premium Plan
-106,65,Female,Houston,Associate's,Premium Plan
-107,32,Female,Los Angeles,High School,Basic Plan
-108,25,Male,New York,Master's,Ultimate Plan
-109,31,Female,Miami,Associate's,Premium Plan
-110,40,Male,Chicago,Master's,Basic Plan
-111,77,Male,Los Angeles,High School,Basic Plan
-112,74,Male,Chicago,Associate's,Premium Plan
-113,79,Male,Los Angeles,Master's,Basic Plan
-114,57,Female,Los Angeles,High School,Basic Plan
-115,38,Female,New York,High School,Standard Plan
-116,33,Female,Chicago,Associate's,Premium Plan
-117,62,Male,Chicago,High School,Ultimate Plan
-118,35,Female,Miami,Bachelor's,Standard Plan
-119,64,Male,Miami,Master's,Basic Plan
-120,70,Female,New York,Master's,Ultimate Plan
-121,41,Female,New York,High School,Basic Plan
-122,43,Female,Houston,High School,Premium Plan
-123,42,Male,Miami,Bachelor's,Basic Plan
-124,77,Female,Los Angeles,Associate's,Standard Plan
-125,77,Female,Chicago,High School,Standard Plan
-126,77,Male,New York,High School,Premium Plan
-127,62,Female,Chicago,High School,Standard Plan
-128,58,Male,Chicago,High School,Standard Plan
-129,46,Female,Houston,Master's,Standard Plan
-130,32,Male,Miami,High School,Premium Plan
-131,62,Male,New York,Master's,Premium Plan
-132,18,Female,Chicago,High School,Ultimate Plan
-133,42,Male,New York,Associate's,Premium Plan
-134,24,Male,Los Angeles,Bachelor's,Standard Plan
-135,26,Male,Houston,Associate's,Premium Plan
-136,41,Male,Los Angeles,High School,Ultimate Plan
-137,18,Male,New York,High School,Basic Plan
-138,61,Male,New York,High School,Basic Plan
-139,25,Female,Miami,Associate's,Standard Plan
-140,41,Male,Chicago,High School,Premium Plan
-141,28,Male,Chicago,Associate's,Standard Plan
-142,68,Female,Los Angeles,Master's,Standard Plan
-143,34,Female,Houston,Bachelor's,Basic Plan
-144,25,Female,Chicago,Bachelor's,Standard Plan
-145,52,Female,Miami,Associate's,Basic Plan
-146,52,Female,Los Angeles,Master's,Premium Plan
-147,50,Female,Los Angeles,Associate's,Standard Plan
-148,76,Female,Miami,Master's,Basic Plan
-149,22,Male,Houston,High School,Standard Plan
-150,59,Male,Miami,Master's,Basic Plan
-151,56,Female,Houston,Master's,Premium Plan
-152,75,Male,Miami,Master's,Basic Plan
-153,58,Male,Miami,Bachelor's,Premium Plan
-154,45,Male,New York,Master's,Basic Plan
-155,24,Female,Los Angeles,High School,Basic Plan
-156,26,Female,Miami,High School,Premium Plan
-157,25,Male,Miami,High School,Ultimate Plan
-158,29,Female,Chicago,Master's,Basic Plan
-159,51,Male,Los Angeles,Associate's,Standard Plan
-160,50,Male,Chicago,Associate's,Ultimate Plan
-161,65,Male,Los Angeles,High School,Premium Plan
-162,72,Male,Chicago,Bachelor's,Ultimate Plan
-163,40,Female,Miami,Associate's,Ultimate Plan
-164,79,Female,Miami,Master's,Basic Plan
-165,41,Female,New York,Associate's,Ultimate Plan
-166,54,Male,Chicago,High School,Standard Plan
-167,52,Female,Houston,Bachelor's,Standard Plan
-168,61,Male,New York,Associate's,Premium Plan
-169,57,Female,Chicago,Associate's,Ultimate Plan
-170,39,Male,Chicago,High School,Basic Plan
-171,44,Male,New York,Bachelor's,Basic Plan
-172,52,Male,Miami,Bachelor's,Ultimate Plan
-173,18,Female,Chicago,High School,Standard Plan
-174,52,Female,Miami,Master's,Ultimate Plan
-175,54,Female,New York,Associate's,Basic Plan
-176,64,Female,Miami,Master's,Basic Plan
-177,31,Male,Los Angeles,Associate's,Premium Plan
-178,20,Female,Houston,Associate's,Basic Plan
-179,18,Female,Chicago,Master's,Premium Plan
-180,22,Male,Houston,High School,Standard Plan
-181,43,Male,Miami,High School,Standard Plan
-182,72,Male,Chicago,Associate's,Standard Plan
-183,31,Female,Miami,High School,Ultimate Plan
-184,56,Male,Los Angeles,Associate's,Basic Plan
-185,44,Male,New York,High School,Basic Plan
-186,26,Male,Chicago,Associate's,Ultimate Plan
-187,32,Female,Los Angeles,High School,Standard Plan
-188,32,Male,Los Angeles,Bachelor's,Premium Plan
-189,43,Female,Chicago,Master's,Premium Plan
-190,59,Female,Miami,Bachelor's,Ultimate Plan
-191,77,Male,Los Angeles,Master's,Ultimate Plan
-192,30,Male,Houston,Master's,Standard Plan
-193,68,Female,Los Angeles,Associate's,Standard Plan
-194,49,Male,Miami,Master's,Premium Plan
-195,56,Male,Miami,Bachelor's,Ultimate Plan
-196,66,Female,Houston,Bachelor's,Premium Plan
-197,69,Female,Los Angeles,High School,Premium Plan
-198,78,Male,Miami,Bachelor's,Premium Plan
-199,49,Female,Chicago,High School,Basic Plan
-200,21,Male,New York,Master's,Premium Plan
-201,47,Male,New York,Bachelor's,Ultimate Plan
-202,54,Male,New York,Master's,Basic Plan
-203,40,Female,Los Angeles,Bachelor's,Premium Plan
-204,56,Male,Houston,Bachelor's,Basic Plan
-205,62,Male,Miami,High School,Basic Plan
-206,32,Male,Chicago,Master's,Standard Plan
-207,60,Female,Chicago,Bachelor's,Premium Plan
-208,46,Female,Los Angeles,Associate's,Ultimate Plan
-209,53,Female,New York,Master's,Ultimate Plan
-210,30,Female,Los Angeles,Master's,Ultimate Plan
-211,49,Female,Houston,Master's,Standard Plan
-212,24,Male,Houston,High School,Ultimate Plan
-213,76,Female,Miami,Associate's,Ultimate Plan
-214,68,Female,Miami,Master's,Ultimate Plan
-215,39,Female,Houston,Bachelor's,Ultimate Plan
-216,45,Male,Houston,Bachelor's,Standard Plan
-217,19,Female,Houston,High School,Ultimate Plan
-218,59,Female,Los Angeles,Bachelor's,Ultimate Plan
-219,62,Male,Houston,Master's,Basic Plan
-220,79,Female,Chicago,Bachelor's,Ultimate Plan
-221,74,Male,New York,Master's,Basic Plan
-222,70,Male,Houston,Bachelor's,Ultimate Plan
-223,23,Male,New York,Associate's,Ultimate Plan
-224,45,Male,Los Angeles,High School,Standard Plan
-225,45,Male,New York,High School,Ultimate Plan
-226,61,Female,Los Angeles,Associate's,Standard Plan
-227,61,Male,Chicago,Associate's,Standard Plan
-228,37,Male,Los Angeles,High School,Basic Plan
-229,47,Female,Los Angeles,Associate's,Standard Plan
-230,79,Male,Miami,Master's,Basic Plan
-231,28,Female,Houston,Bachelor's,Standard Plan
-232,75,Female,Houston,High School,Ultimate Plan
-233,72,Female,Chicago,Associate's,Ultimate Plan
-234,45,Male,Chicago,Master's,Basic Plan
-235,42,Male,Houston,High School,Ultimate Plan
-236,56,Male,Miami,Associate's,Standard Plan
-237,79,Female,Houston,High School,Premium Plan
-238,50,Male,Miami,Associate's,Basic Plan
-239,18,Male,Chicago,High School,Standard Plan
-240,74,Male,New York,Master's,Standard Plan
-241,44,Female,Chicago,Master's,Ultimate Plan
-242,79,Female,Chicago,Bachelor's,Premium Plan
-243,74,Male,Los Angeles,High School,Premium Plan
-244,69,Male,Los Angeles,Bachelor's,Standard Plan
-245,30,Male,Los Angeles,High School,Premium Plan
-246,58,Male,Los Angeles,Associate's,Premium Plan
-247,20,Female,Miami,Associate's,Ultimate Plan
-248,56,Female,Houston,Bachelor's,Premium Plan
-249,23,Female,New York,High School,Ultimate Plan
-250,25,Female,Chicago,Bachelor's,Standard Plan
-251,44,Male,Miami,Master's,Basic Plan
-252,26,Male,New York,Bachelor's,Standard Plan
-253,79,Male,Miami,Bachelor's,Ultimate Plan
-254,54,Female,Miami,Associate's,Premium Plan
-255,50,Male,Chicago,Bachelor's,Standard Plan
-256,68,Female,Houston,High School,Ultimate Plan
-257,59,Female,Los Angeles,Associate's,Standard Plan
-258,61,Male,Houston,Bachelor's,Premium Plan
-259,41,Male,Chicago,Master's,Premium Plan
-260,32,Male,Chicago,Bachelor's,Ultimate Plan
-261,76,Female,Chicago,Bachelor's,Premium Plan
-262,71,Male,New York,Bachelor's,Ultimate Plan
-263,49,Female,Houston,Associate's,Standard Plan
-264,49,Male,Houston,High School,Premium Plan
-265,41,Female,Miami,Master's,Standard Plan
-266,58,Female,Miami,Bachelor's,Basic Plan
-267,69,Male,Miami,High School,Standard Plan
-268,66,Female,Chicago,High School,Standard Plan
-269,79,Female,Houston,Associate's,Ultimate Plan
-270,66,Male,Chicago,Master's,Premium Plan
-271,75,Female,New York,Associate's,Ultimate Plan
-272,69,Male,Miami,High School,Ultimate Plan
-273,29,Female,Chicago,High School,Premium Plan
-274,79,Male,Chicago,High School,Premium Plan
-275,56,Male,New York,Associate's,Standard Plan
-276,19,Female,Los Angeles,Master's,Ultimate Plan
-277,20,Female,Houston,Bachelor's,Standard Plan
-278,66,Female,Los Angeles,Associate's,Ultimate Plan
-279,54,Female,Miami,High School,Basic Plan
-280,66,Female,Chicago,Associate's,Ultimate Plan
-281,73,Male,New York,High School,Ultimate Plan
-282,34,Female,New York,Bachelor's,Standard Plan
-283,76,Male,Houston,Bachelor's,Basic Plan
-284,66,Male,Los Angeles,Master's,Ultimate Plan
-285,19,Female,Houston,High School,Premium Plan
-286,19,Male,Chicago,Master's,Basic Plan
-287,45,Male,Houston,Master's,Ultimate Plan
-288,71,Male,New York,Bachelor's,Standard Plan
-289,40,Male,New York,Associate's,Basic Plan
-290,54,Female,Miami,Associate's,Basic Plan
-291,49,Male,Miami,Master's,Premium Plan
-292,50,Female,Chicago,Bachelor's,Standard Plan
-293,18,Female,Los Angeles,High School,Standard Plan
-294,36,Male,Houston,Associate's,Premium Plan
-295,79,Female,Chicago,Master's,Standard Plan
-296,19,Female,Miami,Associate's,Premium Plan
-297,70,Female,Houston,Associate's,Premium Plan
-298,61,Male,Miami,High School,Ultimate Plan
-299,43,Female,Houston,Bachelor's,Premium Plan
-300,49,Female,Los Angeles,High School,Standard Plan
-301,23,Female,Chicago,Bachelor's,Premium Plan
-302,49,Male,Houston,Associate's,Premium Plan
-303,72,Female,New York,Master's,Basic Plan
-304,21,Male,New York,High School,Premium Plan
-305,72,Male,Houston,Bachelor's,Basic Plan
-306,28,Male,Houston,Associate's,Premium Plan
-307,73,Male,Houston,Bachelor's,Basic Plan
-308,76,Male,New York,Bachelor's,Standard Plan
-309,34,Male,New York,Bachelor's,Premium Plan
-310,55,Female,Houston,Associate's,Ultimate Plan
-311,41,Male,Miami,Master's,Ultimate Plan
-312,22,Female,Miami,Master's,Ultimate Plan
-313,69,Female,Los Angeles,Master's,Premium Plan
-314,51,Male,Chicago,Bachelor's,Basic Plan
-315,23,Female,Miami,Associate's,Premium Plan
-316,39,Female,New York,Bachelor's,Standard Plan
-317,28,Female,Miami,Master's,Ultimate Plan
-318,65,Female,Los Angeles,Master's,Basic Plan
-319,33,Male,Los Angeles,Associate's,Basic Plan
-320,50,Female,Chicago,Bachelor's,Ultimate Plan
-321,26,Male,Miami,High School,Standard Plan
-322,77,Female,New York,High School,Standard Plan
-323,76,Female,New York,Master's,Premium Plan
-324,23,Male,Houston,Associate's,Standard Plan
-325,33,Female,New York,Bachelor's,Basic Plan
-326,46,Female,Chicago,Bachelor's,Premium Plan
-327,20,Female,Chicago,Master's,Standard Plan
-328,37,Male,New York,Master's,Basic Plan
-329,77,Female,New York,Bachelor's,Ultimate Plan
-330,76,Male,Houston,Bachelor's,Premium Plan
-331,53,Female,New York,Master's,Premium Plan
-332,36,Male,Houston,Bachelor's,Basic Plan
-333,43,Male,Houston,High School,Premium Plan
-334,20,Female,New York,Master's,Basic Plan
-335,36,Female,Los Angeles,Bachelor's,Basic Plan
-336,37,Male,Los Angeles,Master's,Basic Plan
-337,49,Male,Houston,Associate's,Premium Plan
-338,24,Female,New York,Master's,Ultimate Plan
-339,69,Male,Los Angeles,Master's,Ultimate Plan
-340,58,Female,New York,Associate's,Premium Plan
-341,50,Female,New York,High School,Premium Plan
-342,57,Female,New York,Bachelor's,Ultimate Plan
-343,56,Female,Miami,Associate's,Basic Plan
-344,35,Male,New York,Master's,Ultimate Plan
-345,57,Female,Miami,Bachelor's,Ultimate Plan
-346,18,Male,Houston,Associate's,Basic Plan
-347,28,Female,Los Angeles,Bachelor's,Ultimate Plan
-348,45,Male,Los Angeles,Bachelor's,Basic Plan
-349,74,Female,Los Angeles,Associate's,Basic Plan
-350,42,Male,Los Angeles,Bachelor's,Standard Plan
-351,67,Male,Los Angeles,High School,Premium Plan
-352,40,Female,Los Angeles,Associate's,Premium Plan
-353,48,Female,Los Angeles,High School,Ultimate Plan
-354,47,Female,Houston,Master's,Standard Plan
-355,59,Female,New York,Bachelor's,Standard Plan
-356,52,Male,Chicago,Master's,Premium Plan
-357,24,Female,Miami,Master's,Premium Plan
-358,77,Male,Chicago,Bachelor's,Standard Plan
-359,33,Male,Chicago,Associate's,Premium Plan
-360,43,Female,New York,Bachelor's,Premium Plan
-361,65,Male,New York,Master's,Ultimate Plan
-362,74,Male,New York,Master's,Standard Plan
-363,69,Male,Los Angeles,Associate's,Ultimate Plan
-364,77,Male,Houston,Bachelor's,Premium Plan
-365,66,Female,Los Angeles,Master's,Standard Plan
-366,19,Female,Houston,High School,Basic Plan
-367,18,Female,Houston,Master's,Standard Plan
-368,65,Female,Chicago,Master's,Basic Plan
-369,79,Male,Chicago,Associate's,Standard Plan
-370,29,Male,Houston,High School,Basic Plan
-371,22,Female,Houston,Master's,Standard Plan
-372,54,Female,Los Angeles,Master's,Ultimate Plan
-373,49,Female,Los Angeles,High School,Standard Plan
-374,76,Male,Chicago,Bachelor's,Ultimate Plan
-375,72,Female,New York,Bachelor's,Basic Plan
-376,26,Female,Houston,Master's,Basic Plan
-377,58,Female,Los Angeles,Master's,Premium Plan
-378,52,Male,Chicago,Bachelor's,Standard Plan
-379,36,Male,Los Angeles,Associate's,Standard Plan
-380,65,Male,Houston,High School,Ultimate Plan
-381,33,Male,Houston,High School,Premium Plan
-382,20,Male,Miami,Associate's,Standard Plan
-383,37,Male,New York,Associate's,Premium Plan
-384,41,Male,Miami,Associate's,Basic Plan
-385,71,Male,Chicago,Associate's,Basic Plan
-386,73,Female,Los Angeles,Associate's,Standard Plan
-387,50,Female,Chicago,Associate's,Standard Plan
-388,41,Male,Houston,High School,Basic Plan
-389,69,Male,Miami,Associate's,Ultimate Plan
-390,28,Female,Miami,Bachelor's,Standard Plan
-391,66,Male,Miami,Associate's,Basic Plan
-392,25,Male,Chicago,Associate's,Basic Plan
-393,53,Male,Houston,High School,Premium Plan
-394,55,Female,Los Angeles,High School,Ultimate Plan
-395,57,Female,Los Angeles,Associate's,Ultimate Plan
-396,37,Female,Chicago,High School,Basic Plan
-397,79,Female,Miami,Master's,Basic Plan
-398,52,Female,New York,High School,Standard Plan
-399,65,Male,Chicago,High School,Standard Plan
-400,79,Female,Chicago,High School,Standard Plan
-401,42,Male,Houston,High School,Basic Plan
-402,52,Male,Los Angeles,Bachelor's,Ultimate Plan
-403,42,Female,Chicago,Bachelor's,Premium Plan
-404,46,Female,Chicago,Bachelor's,Standard Plan
-405,35,Male,Miami,Associate's,Ultimate Plan
-406,63,Male,Miami,Associate's,Ultimate Plan
-407,35,Male,New York,Master's,Standard Plan
-408,19,Female,Houston,Bachelor's,Basic Plan
-409,71,Female,New York,Associate's,Ultimate Plan
-410,52,Female,Miami,High School,Basic Plan
-411,33,Female,Los Angeles,High School,Premium Plan
-412,78,Female,Miami,Bachelor's,Premium Plan
-413,58,Male,Houston,Master's,Premium Plan
-414,53,Female,Miami,Master's,Ultimate Plan
-415,50,Male,Houston,High School,Basic Plan
-416,21,Male,Houston,Master's,Ultimate Plan
-417,50,Male,Houston,Bachelor's,Premium Plan
-418,31,Female,Houston,High School,Ultimate Plan
-419,38,Female,Houston,Associate's,Standard Plan
-420,65,Female,Los Angeles,Associate's,Standard Plan
-421,37,Male,New York,Master's,Premium Plan
-422,73,Male,Chicago,High School,Standard Plan
-423,25,Male,New York,High School,Standard Plan
-424,24,Male,Houston,Associate's,Ultimate Plan
-425,20,Male,Los Angeles,High School,Ultimate Plan
-426,34,Male,Miami,High School,Premium Plan
-427,50,Female,Los Angeles,High School,Ultimate Plan
-428,65,Female,Houston,Master's,Basic Plan
-429,29,Female,Los Angeles,High School,Basic Plan
-430,76,Female,Los Angeles,Bachelor's,Premium Plan
-431,68,Male,Houston,Master's,Standard Plan
-432,39,Male,Los Angeles,High School,Standard Plan
-433,72,Female,Chicago,High School,Premium Plan
-434,39,Male,Chicago,Bachelor's,Basic Plan
-435,63,Female,Los Angeles,Master's,Ultimate Plan
-436,47,Female,Miami,Associate's,Ultimate Plan
-437,55,Female,Houston,Associate's,Basic Plan
-438,55,Male,Chicago,Master's,Standard Plan
-439,62,Female,Miami,High School,Ultimate Plan
-440,68,Female,Los Angeles,High School,Standard Plan
-441,71,Female,Miami,Associate's,Basic Plan
-442,25,Male,New York,Associate's,Basic Plan
-443,44,Male,Chicago,Associate's,Premium Plan
-444,44,Female,Los Angeles,Bachelor's,Basic Plan
-445,51,Male,Houston,Associate's,Standard Plan
-446,38,Male,Los Angeles,Bachelor's,Standard Plan
-447,47,Male,Houston,Master's,Ultimate Plan
-448,50,Male,Los Angeles,High School,Ultimate Plan
-449,45,Male,Miami,Associate's,Premium Plan
-450,64,Male,Miami,High School,Standard Plan
-451,50,Male,Miami,High School,Basic Plan
-452,22,Male,New York,Associate's,Premium Plan
-453,77,Male,Houston,Associate's,Basic Plan
-454,78,Male,Miami,Master's,Standard Plan
-455,65,Female,New York,Bachelor's,Ultimate Plan
-456,36,Female,Houston,Bachelor's,Premium Plan
-457,21,Male,Los Angeles,High School,Standard Plan
-458,52,Female,New York,Associate's,Premium Plan
-459,66,Female,Chicago,Master's,Basic Plan
-460,34,Male,New York,Master's,Premium Plan
-461,61,Male,New York,Master's,Ultimate Plan
-462,45,Male,Houston,Master's,Ultimate Plan
-463,47,Female,Los Angeles,Master's,Basic Plan
-464,46,Female,Chicago,Bachelor's,Basic Plan
-465,63,Male,Miami,Bachelor's,Ultimate Plan
-466,70,Male,Miami,Bachelor's,Ultimate Plan
-467,23,Male,New York,Associate's,Ultimate Plan
-468,52,Female,Houston,High School,Premium Plan
-469,77,Female,Houston,Master's,Ultimate Plan
-470,58,Female,Miami,Associate's,Standard Plan
-471,54,Female,Chicago,Master's,Standard Plan
-472,41,Male,Los Angeles,Bachelor's,Ultimate Plan
-473,46,Male,Chicago,Associate's,Standard Plan
-474,66,Male,Los Angeles,Bachelor's,Ultimate Plan
-475,63,Male,Miami,Master's,Basic Plan
-476,70,Female,Los Angeles,Master's,Ultimate Plan
-477,48,Female,Houston,High School,Basic Plan
-478,52,Male,New York,Master's,Basic Plan
-479,77,Male,New York,Bachelor's,Basic Plan
-480,50,Female,Miami,Master's,Ultimate Plan
-481,69,Male,Houston,High School,Premium Plan
-482,78,Female,Chicago,High School,Ultimate Plan
-483,38,Male,Houston,Bachelor's,Standard Plan
-484,49,Male,New York,Associate's,Ultimate Plan
-485,40,Male,New York,Master's,Premium Plan
-486,50,Male,Houston,High School,Ultimate Plan
-487,20,Male,Houston,Master's,Premium Plan
-488,35,Male,New York,Master's,Premium Plan
-489,42,Male,Chicago,Associate's,Basic Plan
-490,59,Female,Miami,High School,Ultimate Plan
-491,48,Female,Miami,Master's,Standard Plan
-492,71,Female,Houston,High School,Premium Plan
-493,75,Female,Miami,Bachelor's,Premium Plan
-494,20,Female,New York,Bachelor's,Premium Plan
-495,57,Male,New York,Master's,Premium Plan
-496,63,Male,Houston,High School,Ultimate Plan
-497,41,Female,Houston,Master's,Standard Plan
-498,67,Male,Houston,High School,Premium Plan
-499,49,Female,Chicago,High School,Standard Plan
-500,64,Female,Miami,Associate's,Ultimate Plan
-501,39,Male,Houston,Associate's,Basic Plan
-502,40,Male,Los Angeles,Associate's,Standard Plan
-503,19,Male,Los Angeles,Master's,Standard Plan
-504,44,Female,New York,Associate's,Standard Plan
-505,59,Male,Miami,Associate's,Premium Plan
-506,19,Female,Houston,Bachelor's,Ultimate Plan
-507,43,Female,Los Angeles,High School,Premium Plan
-508,34,Female,Miami,High School,Premium Plan
-509,57,Male,New York,Associate's,Premium Plan
-510,50,Male,Chicago,High School,Standard Plan
-511,26,Female,Miami,Bachelor's,Premium Plan
-512,60,Male,Miami,Bachelor's,Ultimate Plan
-513,71,Male,Chicago,Associate's,Premium Plan
-514,65,Male,Miami,Bachelor's,Standard Plan
-515,56,Female,New York,High School,Standard Plan
-516,46,Female,New York,Master's,Basic Plan
-517,59,Male,Chicago,High School,Premium Plan
-518,72,Female,Houston,Master's,Standard Plan
-519,43,Male,Los Angeles,Associate's,Standard Plan
-520,52,Male,Houston,Master's,Ultimate Plan
-521,67,Male,Miami,Bachelor's,Standard Plan
-522,42,Male,Los Angeles,High School,Basic Plan
-523,41,Female,Chicago,Master's,Ultimate Plan
-524,30,Female,Chicago,High School,Basic Plan
-525,77,Female,Los Angeles,Associate's,Premium Plan
-526,75,Male,New York,Associate's,Ultimate Plan
-527,24,Male,Los Angeles,Bachelor's,Standard Plan
-528,74,Male,Miami,Associate's,Standard Plan
-529,53,Female,New York,Master's,Ultimate Plan
-530,62,Male,Chicago,Associate's,Basic Plan
-531,37,Female,Los Angeles,Bachelor's,Basic Plan
-532,18,Female,Houston,High School,Basic Plan
-533,25,Female,Houston,High School,Standard Plan
-534,63,Female,Miami,Associate's,Ultimate Plan
-535,33,Female,Houston,Master's,Ultimate Plan
-536,31,Female,Los Angeles,Bachelor's,Standard Plan
-537,29,Male,Los Angeles,Master's,Premium Plan
-538,68,Male,Houston,Bachelor's,Standard Plan
-539,40,Female,Los Angeles,Associate's,Premium Plan
-540,32,Female,Miami,Bachelor's,Standard Plan
-541,45,Male,New York,Bachelor's,Basic Plan
-542,51,Female,Miami,Associate's,Premium Plan
-543,19,Female,Miami,Master's,Premium Plan
-544,49,Male,Los Angeles,Associate's,Premium Plan
-545,40,Female,New York,Bachelor's,Basic Plan
-546,39,Female,Los Angeles,Associate's,Premium Plan
-547,68,Female,Chicago,Bachelor's,Premium Plan
-548,42,Male,Los Angeles,Associate's,Standard Plan
-549,75,Male,Los Angeles,High School,Premium Plan
-550,79,Male,Los Angeles,High School,Basic Plan
-551,78,Female,New York,Associate's,Premium Plan
-552,39,Female,Los Angeles,Master's,Ultimate Plan
-553,75,Male,New York,Bachelor's,Standard Plan
-554,75,Female,Houston,High School,Standard Plan
-555,39,Female,Chicago,Master's,Basic Plan
-556,66,Female,New York,Bachelor's,Premium Plan
-557,69,Female,Houston,High School,Standard Plan
-558,59,Female,New York,High School,Premium Plan
-559,23,Male,New York,Associate's,Standard Plan
-560,32,Female,Chicago,Bachelor's,Standard Plan
-561,71,Male,Miami,Master's,Premium Plan
-562,60,Female,Miami,Master's,Standard Plan
-563,77,Male,New York,Master's,Basic Plan
-564,54,Female,Los Angeles,Bachelor's,Basic Plan
-565,50,Male,Houston,Master's,Standard Plan
-566,25,Female,Los Angeles,Master's,Ultimate Plan
-567,70,Male,Los Angeles,Master's,Premium Plan
-568,77,Female,New York,Associate's,Ultimate Plan
-569,61,Male,New York,Associate's,Premium Plan
-570,61,Female,New York,Bachelor's,Standard Plan
-571,22,Male,New York,Bachelor's,Premium Plan
-572,56,Male,Miami,Master's,Ultimate Plan
-573,21,Female,New York,Associate's,Basic Plan
-574,23,Female,Miami,High School,Standard Plan
-575,62,Male,Miami,High School,Standard Plan
-576,49,Female,New York,Master's,Standard Plan
-577,69,Male,Chicago,Master's,Basic Plan
-578,47,Male,Houston,Associate's,Premium Plan
-579,64,Male,Los Angeles,Associate's,Premium Plan
-580,52,Female,Miami,Associate's,Standard Plan
-581,72,Male,Houston,Bachelor's,Premium Plan
-582,57,Male,Chicago,Bachelor's,Premium Plan
-583,69,Female,Los Angeles,Master's,Basic Plan
-584,33,Female,Los Angeles,Bachelor's,Standard Plan
-585,30,Female,Miami,Associate's,Ultimate Plan
-586,67,Female,New York,Associate's,Standard Plan
-587,77,Male,Chicago,Bachelor's,Basic Plan
-588,59,Male,Miami,High School,Ultimate Plan
-589,47,Male,Chicago,Master's,Basic Plan
-590,36,Male,New York,High School,Basic Plan
-591,34,Female,New York,Master's,Standard Plan
-592,73,Male,Miami,High School,Basic Plan
-593,36,Male,New York,Bachelor's,Premium Plan
-594,45,Female,Houston,Master's,Ultimate Plan
-595,75,Male,Los Angeles,Master's,Basic Plan
-596,72,Male,Miami,Master's,Premium Plan
-597,43,Male,Chicago,Associate's,Premium Plan
-598,54,Male,Houston,Associate's,Basic Plan
-599,43,Male,Miami,High School,Ultimate Plan
-600,70,Male,New York,Bachelor's,Basic Plan
-601,79,Female,New York,Associate's,Basic Plan
-602,40,Female,New York,Master's,Ultimate Plan
-603,26,Male,New York,Associate's,Basic Plan
-604,29,Male,Chicago,Bachelor's,Ultimate Plan
-605,70,Female,Houston,Associate's,Standard Plan
-606,18,Male,Los Angeles,Master's,Ultimate Plan
-607,75,Male,Chicago,High School,Ultimate Plan
-608,75,Male,Chicago,Master's,Ultimate Plan
-609,18,Female,Los Angeles,Bachelor's,Ultimate Plan
-610,64,Male,Los Angeles,High School,Ultimate Plan
-611,51,Female,New York,Associate's,Standard Plan
-612,49,Male,Chicago,Associate's,Ultimate Plan
-613,79,Female,Miami,Associate's,Standard Plan
-614,71,Female,Los Angeles,High School,Premium Plan
-615,65,Male,Los Angeles,Master's,Basic Plan
-616,42,Female,Houston,High School,Premium Plan
-617,57,Male,Miami,High School,Basic Plan
-618,62,Female,Miami,Bachelor's,Standard Plan
-619,70,Male,Los Angeles,High School,Basic Plan
-620,18,Male,New York,Associate's,Ultimate Plan
-621,33,Female,Houston,Master's,Premium Plan
-622,78,Male,Miami,Master's,Standard Plan
-623,56,Male,Los Angeles,Master's,Standard Plan
-624,22,Female,Miami,Associate's,Premium Plan
-625,39,Male,Houston,Associate's,Premium Plan
-626,46,Male,Houston,Associate's,Premium Plan
-627,72,Female,Chicago,Associate's,Standard Plan
-628,20,Female,Los Angeles,Associate's,Basic Plan
-629,29,Male,Houston,High School,Basic Plan
-630,43,Male,Chicago,Associate's,Basic Plan
-631,33,Female,Chicago,Associate's,Basic Plan
-632,68,Female,Miami,Associate's,Basic Plan
-633,54,Male,Miami,Associate's,Premium Plan
-634,39,Female,Chicago,Master's,Ultimate Plan
-635,74,Male,Miami,Associate's,Basic Plan
-636,46,Male,Houston,High School,Premium Plan
-637,31,Male,New York,High School,Basic Plan
-638,45,Male,Houston,High School,Standard Plan
-639,22,Male,Chicago,Bachelor's,Premium Plan
-640,64,Female,Chicago,Master's,Standard Plan
-641,66,Female,Houston,Associate's,Premium Plan
-642,47,Female,Miami,Bachelor's,Basic Plan
-643,63,Female,Miami,Associate's,Premium Plan
-644,79,Male,Chicago,Bachelor's,Ultimate Plan
-645,69,Male,Los Angeles,Bachelor's,Basic Plan
-646,22,Male,Miami,High School,Premium Plan
-647,29,Male,Houston,High School,Premium Plan
-648,33,Female,Miami,Bachelor's,Ultimate Plan
-649,43,Male,Houston,High School,Premium Plan
-650,43,Male,Chicago,Bachelor's,Basic Plan
-651,65,Female,Miami,Master's,Ultimate Plan
-652,38,Female,Houston,High School,Premium Plan
-653,56,Female,Chicago,High School,Standard Plan
-654,53,Female,Los Angeles,High School,Standard Plan
-655,50,Male,Houston,Master's,Basic Plan
-656,79,Male,Los Angeles,Bachelor's,Basic Plan
-657,47,Female,Los Angeles,Associate's,Standard Plan
-658,54,Male,New York,High School,Standard Plan
-659,40,Male,Miami,Bachelor's,Premium Plan
-660,75,Male,Houston,Master's,Basic Plan
-661,27,Female,Los Angeles,Associate's,Ultimate Plan
-662,71,Male,New York,High School,Ultimate Plan
-663,22,Female,Chicago,Master's,Basic Plan
-664,53,Male,Houston,Master's,Premium Plan
-665,51,Male,Los Angeles,Associate's,Premium Plan
-666,69,Male,Miami,Bachelor's,Standard Plan
-667,48,Female,New York,High School,Premium Plan
-668,27,Male,Los Angeles,High School,Ultimate Plan
-669,75,Female,Miami,Bachelor's,Standard Plan
-670,36,Female,Los Angeles,Bachelor's,Ultimate Plan
-671,75,Female,Houston,Bachelor's,Basic Plan
-672,49,Male,Houston,Associate's,Standard Plan
-673,18,Male,Houston,Associate's,Basic Plan
-674,73,Male,New York,High School,Basic Plan
-675,22,Male,Houston,Associate's,Standard Plan
-676,62,Female,Miami,Master's,Basic Plan
-677,21,Female,Los Angeles,High School,Basic Plan
-678,33,Female,Chicago,Associate's,Standard Plan
-679,41,Male,Miami,Bachelor's,Standard Plan
-680,33,Female,Miami,Master's,Basic Plan
-681,72,Male,Houston,Bachelor's,Premium Plan
-682,19,Female,New York,High School,Ultimate Plan
-683,66,Male,Los Angeles,Bachelor's,Basic Plan
-684,45,Male,New York,Associate's,Standard Plan
-685,49,Female,Los Angeles,Associate's,Standard Plan
-686,44,Female,Los Angeles,High School,Basic Plan
-687,37,Female,New York,Bachelor's,Basic Plan
-688,41,Female,Miami,High School,Basic Plan
-689,29,Male,Los Angeles,Bachelor's,Ultimate Plan
-690,67,Female,New York,Master's,Ultimate Plan
-691,52,Female,Los Angeles,Associate's,Basic Plan
-692,77,Female,Chicago,High School,Standard Plan
-693,50,Male,Miami,Master's,Ultimate Plan
-694,50,Male,Houston,Master's,Basic Plan
-695,78,Female,Los Angeles,High School,Premium Plan
-696,68,Male,Chicago,High School,Standard Plan
-697,60,Female,Houston,Master's,Standard Plan
-698,54,Male,Houston,Bachelor's,Premium Plan
-699,29,Male,Los Angeles,Master's,Standard Plan
-700,20,Male,New York,High School,Premium Plan
-701,18,Male,Los Angeles,Master's,Basic Plan
-702,50,Female,Chicago,Bachelor's,Standard Plan
-703,57,Female,Houston,Associate's,Basic Plan
-704,27,Female,Los Angeles,Associate's,Premium Plan
-705,60,Male,New York,Master's,Basic Plan
-706,61,Female,Los Angeles,Bachelor's,Premium Plan
-707,46,Female,Miami,Associate's,Basic Plan
-708,30,Female,New York,Master's,Premium Plan
-709,29,Male,Chicago,Master's,Premium Plan
-710,48,Male,Houston,Bachelor's,Basic Plan
-711,63,Male,Los Angeles,High School,Basic Plan
-712,19,Female,New York,Master's,Standard Plan
-713,78,Female,Miami,High School,Standard Plan
-714,68,Female,New York,High School,Ultimate Plan
-715,67,Male,Miami,Associate's,Ultimate Plan
-716,52,Male,Chicago,High School,Standard Plan
-717,40,Female,Houston,Bachelor's,Basic Plan
-718,34,Male,Chicago,Associate's,Standard Plan
-719,43,Male,Los Angeles,Associate's,Standard Plan
-720,25,Male,New York,Associate's,Ultimate Plan
-721,46,Male,Miami,Master's,Standard Plan
-722,43,Female,Miami,Master's,Premium Plan
-723,27,Male,New York,High School,Standard Plan
-724,43,Male,New York,Associate's,Standard Plan
-725,79,Male,Los Angeles,Associate's,Basic Plan
-726,51,Male,Chicago,Bachelor's,Premium Plan
-727,68,Female,Miami,High School,Basic Plan
-728,58,Female,Los Angeles,Bachelor's,Standard Plan
-729,24,Male,Chicago,High School,Basic Plan
-730,21,Male,Los Angeles,High School,Basic Plan
-731,75,Male,Miami,Master's,Premium Plan
-732,70,Male,New York,Master's,Basic Plan
-733,67,Male,New York,Bachelor's,Premium Plan
-734,62,Male,Chicago,High School,Premium Plan
-735,28,Female,Houston,Associate's,Premium Plan
-736,46,Male,Chicago,Master's,Ultimate Plan
-737,73,Female,Houston,Associate's,Standard Plan
-738,53,Female,Los Angeles,Bachelor's,Ultimate Plan
-739,42,Male,Los Angeles,Master's,Ultimate Plan
-740,38,Female,Miami,Master's,Standard Plan
-741,78,Female,Houston,High School,Basic Plan
-742,74,Female,Miami,Bachelor's,Basic Plan
-743,53,Female,New York,High School,Basic Plan
-744,27,Female,Houston,Master's,Standard Plan
-745,54,Female,Chicago,Bachelor's,Premium Plan
-746,26,Male,New York,Master's,Basic Plan
-747,41,Female,New York,Bachelor's,Ultimate Plan
-748,52,Female,Chicago,Master's,Basic Plan
-749,66,Female,New York,Associate's,Ultimate Plan
-750,52,Male,Houston,Associate's,Basic Plan
-751,65,Female,Miami,High School,Standard Plan
-752,53,Male,New York,Associate's,Basic Plan
-753,35,Female,Houston,Master's,Premium Plan
-754,66,Male,Los Angeles,Master's,Premium Plan
-755,56,Male,Houston,Associate's,Basic Plan
-756,49,Female,Miami,High School,Ultimate Plan
-757,41,Female,Houston,Associate's,Ultimate Plan
-758,40,Male,Chicago,Bachelor's,Basic Plan
-759,79,Female,Miami,Bachelor's,Standard Plan
-760,49,Male,Los Angeles,Bachelor's,Ultimate Plan
-761,54,Male,Chicago,Associate's,Ultimate Plan
-762,29,Male,Houston,Associate's,Premium Plan
-763,66,Male,Miami,Associate's,Standard Plan
-764,72,Male,Los Angeles,Bachelor's,Basic Plan
-765,30,Female,Chicago,High School,Basic Plan
-766,40,Male,Los Angeles,Master's,Ultimate Plan
-767,42,Male,Houston,Associate's,Premium Plan
-768,52,Female,Los Angeles,High School,Ultimate Plan
-769,58,Male,New York,Master's,Ultimate Plan
-770,47,Female,Chicago,Master's,Premium Plan
-771,34,Female,Los Angeles,Master's,Standard Plan
-772,66,Female,Houston,High School,Basic Plan
-773,79,Male,Houston,High School,Basic Plan
-774,37,Male,Los Angeles,Bachelor's,Standard Plan
-775,65,Male,Houston,High School,Ultimate Plan
-776,42,Female,Miami,High School,Basic Plan
-777,39,Male,Miami,High School,Premium Plan
-778,30,Female,Miami,Master's,Standard Plan
-779,76,Male,New York,Associate's,Basic Plan
-780,36,Female,Los Angeles,Bachelor's,Basic Plan
-781,66,Male,New York,Associate's,Ultimate Plan
-782,53,Male,Houston,Associate's,Ultimate Plan
-783,29,Male,New York,High School,Standard Plan
-784,78,Female,Houston,Bachelor's,Ultimate Plan
-785,58,Female,Houston,Associate's,Standard Plan
-786,36,Male,Chicago,Associate's,Basic Plan
-787,29,Male,Miami,Bachelor's,Ultimate Plan
-788,26,Female,Houston,High School,Ultimate Plan
-789,24,Female,Chicago,Associate's,Standard Plan
-790,45,Female,Miami,Master's,Ultimate Plan
-791,31,Male,Houston,Associate's,Standard Plan
-792,48,Female,Houston,Master's,Standard Plan
-793,69,Male,New York,High School,Basic Plan
-794,36,Female,New York,Associate's,Ultimate Plan
-795,75,Male,Miami,Bachelor's,Premium Plan
-796,64,Female,Houston,Bachelor's,Basic Plan
-797,33,Female,Los Angeles,Associate's,Basic Plan
-798,70,Female,New York,High School,Ultimate Plan
-799,22,Female,Miami,High School,Ultimate Plan
-800,52,Female,Houston,Bachelor's,Standard Plan
-801,29,Male,Houston,Associate's,Ultimate Plan
-802,42,Female,Los Angeles,High School,Ultimate Plan
-803,69,Female,Miami,Bachelor's,Ultimate Plan
-804,76,Female,Houston,Master's,Premium Plan
-805,38,Male,New York,Associate's,Standard Plan
-806,53,Female,Los Angeles,Master's,Ultimate Plan
-807,70,Male,Miami,Master's,Standard Plan
-808,40,Female,Los Angeles,High School,Premium Plan
-809,33,Female,New York,High School,Standard Plan
-810,74,Male,Miami,High School,Basic Plan
-811,56,Female,Los Angeles,Associate's,Premium Plan
-812,62,Male,Chicago,Master's,Premium Plan
-813,70,Male,New York,Associate's,Premium Plan
-814,59,Female,New York,High School,Basic Plan
-815,75,Male,New York,Master's,Standard Plan
-816,56,Female,Chicago,Associate's,Standard Plan
-817,31,Female,Chicago,Associate's,Premium Plan
-818,48,Male,Houston,Bachelor's,Ultimate Plan
-819,75,Male,Los Angeles,Associate's,Ultimate Plan
-820,22,Male,Houston,High School,Ultimate Plan
-821,52,Male,Los Angeles,Associate's,Ultimate Plan
-822,40,Female,Chicago,Master's,Standard Plan
-823,46,Female,Chicago,Associate's,Basic Plan
-824,60,Male,Houston,Bachelor's,Ultimate Plan
-825,28,Female,Miami,Master's,Basic Plan
-826,35,Female,Houston,Master's,Ultimate Plan
-827,64,Female,Los Angeles,Bachelor's,Ultimate Plan
-828,29,Female,Houston,High School,Standard Plan
-829,26,Male,New York,Master's,Basic Plan
-830,27,Male,Los Angeles,High School,Premium Plan
-831,75,Female,Los Angeles,Master's,Ultimate Plan
-832,61,Male,Miami,Master's,Basic Plan
-833,34,Male,Chicago,High School,Ultimate Plan
-834,78,Male,Los Angeles,Master's,Standard Plan
-835,55,Female,Chicago,High School,Premium Plan
-836,24,Female,Houston,Bachelor's,Basic Plan
-837,63,Female,New York,High School,Standard Plan
-838,30,Male,Miami,Bachelor's,Ultimate Plan
-839,57,Female,Chicago,Master's,Basic Plan
-840,59,Female,Los Angeles,High School,Standard Plan
-841,26,Male,Chicago,Master's,Ultimate Plan
-842,67,Female,Los Angeles,High School,Premium Plan
-843,44,Female,Chicago,Bachelor's,Basic Plan
-844,75,Male,Los Angeles,Bachelor's,Basic Plan
-845,19,Male,Houston,High School,Premium Plan
-846,22,Male,Los Angeles,Bachelor's,Ultimate Plan
-847,46,Female,Los Angeles,Master's,Basic Plan
-848,54,Female,New York,Master's,Basic Plan
-849,55,Female,Los Angeles,Associate's,Premium Plan
-850,36,Male,New York,Bachelor's,Standard Plan
-851,25,Male,Miami,Master's,Standard Plan
-852,65,Female,New York,High School,Premium Plan
-853,62,Female,Houston,Bachelor's,Ultimate Plan
-854,18,Male,New York,Master's,Standard Plan
-855,39,Male,Miami,Bachelor's,Standard Plan
-856,69,Male,Houston,High School,Standard Plan
-857,34,Male,Chicago,Master's,Ultimate Plan
-858,24,Female,Chicago,Associate's,Standard Plan
-859,42,Male,New York,Associate's,Premium Plan
-860,62,Female,New York,Bachelor's,Premium Plan
-861,21,Female,Miami,High School,Standard Plan
-862,53,Female,Miami,Master's,Ultimate Plan
-863,23,Male,Los Angeles,High School,Basic Plan
-864,77,Male,Miami,Master's,Standard Plan
-865,48,Male,Los Angeles,Bachelor's,Standard Plan
-866,36,Male,Houston,Master's,Premium Plan
-867,78,Female,New York,High School,Standard Plan
-868,61,Male,Houston,High School,Basic Plan
-869,71,Male,Miami,Bachelor's,Ultimate Plan
-870,56,Female,Houston,High School,Premium Plan
-871,44,Male,Houston,Master's,Premium Plan
-872,27,Female,Houston,Bachelor's,Basic Plan
-873,43,Female,Miami,Master's,Ultimate Plan
-874,36,Female,Houston,High School,Ultimate Plan
-875,56,Female,Los Angeles,Bachelor's,Ultimate Plan
-876,79,Female,Miami,Master's,Basic Plan
-877,20,Female,Houston,High School,Ultimate Plan
-878,62,Female,Miami,High School,Premium Plan
-879,30,Female,Chicago,Associate's,Standard Plan
-880,67,Male,Los Angeles,High School,Premium Plan
-881,45,Male,Houston,Master's,Ultimate Plan
-882,79,Male,Chicago,Bachelor's,Standard Plan
-883,75,Male,Chicago,Associate's,Ultimate Plan
-884,37,Female,Miami,High School,Ultimate Plan
-885,45,Male,Chicago,High School,Standard Plan
-886,25,Female,Los Angeles,High School,Premium Plan
-887,78,Male,Los Angeles,Master's,Premium Plan
-888,58,Male,New York,Associate's,Standard Plan
-889,56,Male,Los Angeles,Master's,Ultimate Plan
-890,18,Female,Chicago,Associate's,Ultimate Plan
-891,20,Male,Los Angeles,Bachelor's,Ultimate Plan
-892,30,Female,Miami,Master's,Premium Plan
-893,45,Female,New York,Master's,Premium Plan
-894,79,Male,Chicago,Bachelor's,Basic Plan
-895,74,Male,New York,Associate's,Basic Plan
-896,77,Male,Chicago,High School,Standard Plan
-897,66,Female,Miami,Bachelor's,Premium Plan
-898,42,Male,New York,High School,Basic Plan
-899,73,Female,Houston,High School,Premium Plan
-900,50,Female,Chicago,Bachelor's,Premium Plan
-901,55,Male,Houston,Associate's,Premium Plan
-902,70,Male,New York,High School,Basic Plan
-903,23,Female,Houston,Bachelor's,Basic Plan
-904,75,Female,Houston,Master's,Ultimate Plan
-905,61,Female,New York,Master's,Basic Plan
-906,62,Male,Miami,Master's,Premium Plan
-907,49,Female,Houston,Bachelor's,Ultimate Plan
-908,62,Male,Houston,Master's,Standard Plan
-909,78,Female,Miami,High School,Ultimate Plan
-910,64,Female,Houston,Master's,Standard Plan
-911,38,Male,Houston,Master's,Premium Plan
-912,33,Female,Houston,High School,Ultimate Plan
-913,71,Male,Los Angeles,Master's,Standard Plan
-914,38,Male,Miami,High School,Basic Plan
-915,28,Female,Houston,Master's,Basic Plan
-916,77,Male,Miami,High School,Basic Plan
-917,54,Male,Chicago,Master's,Premium Plan
-918,53,Female,Chicago,High School,Premium Plan
-919,52,Male,Houston,Bachelor's,Premium Plan
-920,36,Male,Miami,High School,Standard Plan
-921,37,Male,Miami,Master's,Basic Plan
-922,74,Female,Miami,Master's,Basic Plan
-923,35,Male,Los Angeles,Associate's,Standard Plan
-924,64,Female,Chicago,High School,Standard Plan
-925,58,Female,Miami,Bachelor's,Basic Plan
-926,66,Male,Miami,High School,Basic Plan
-927,31,Male,Los Angeles,High School,Standard Plan
-928,32,Male,Los Angeles,Bachelor's,Basic Plan
-929,48,Female,Miami,High School,Premium Plan
-930,18,Male,New York,Bachelor's,Premium Plan
-931,70,Male,Miami,Bachelor's,Ultimate Plan
-932,71,Male,Miami,High School,Standard Plan
-933,71,Male,Los Angeles,High School,Basic Plan
-934,20,Male,Los Angeles,Master's,Basic Plan
-935,33,Female,Miami,Master's,Basic Plan
-936,40,Female,Miami,Associate's,Standard Plan
-937,74,Male,Miami,Associate's,Basic Plan
-938,28,Male,Los Angeles,High School,Premium Plan
-939,29,Male,Miami,Bachelor's,Basic Plan
-940,27,Male,Miami,Associate's,Standard Plan
-941,49,Female,Houston,High School,Ultimate Plan
-942,33,Male,New York,Associate's,Ultimate Plan
-943,25,Female,Chicago,Bachelor's,Standard Plan
-944,55,Female,New York,High School,Basic Plan
-945,29,Male,Houston,Bachelor's,Ultimate Plan
-946,41,Female,Chicago,High School,Standard Plan
-947,45,Female,Miami,Associate's,Basic Plan
-948,70,Female,Houston,Master's,Premium Plan
-949,25,Female,Miami,Associate's,Premium Plan
-950,75,Male,Los Angeles,Associate's,Ultimate Plan
-951,45,Male,Houston,Master's,Standard Plan
-952,53,Female,Los Angeles,Master's,Basic Plan
-953,43,Male,Houston,High School,Premium Plan
-954,25,Male,Houston,High School,Basic Plan
-955,75,Male,Los Angeles,Bachelor's,Premium Plan
-956,77,Male,Chicago,Bachelor's,Standard Plan
-957,67,Male,New York,Associate's,Premium Plan
-958,45,Female,Miami,Master's,Standard Plan
-959,45,Male,Houston,Bachelor's,Premium Plan
-960,54,Male,Miami,Associate's,Ultimate Plan
-961,58,Male,Los Angeles,Master's,Standard Plan
-962,53,Male,Miami,High School,Basic Plan
-963,44,Female,Los Angeles,Associate's,Premium Plan
-964,71,Female,Miami,High School,Ultimate Plan
-965,34,Female,New York,Bachelor's,Standard Plan
-966,26,Female,New York,Bachelor's,Standard Plan
-967,50,Male,New York,Master's,Basic Plan
-968,70,Female,New York,Associate's,Premium Plan
-969,37,Male,New York,High School,Premium Plan
-970,30,Male,New York,Master's,Ultimate Plan
-971,45,Male,Los Angeles,Bachelor's,Premium Plan
-972,65,Male,Houston,Bachelor's,Basic Plan
-973,46,Male,Miami,Associate's,Premium Plan
-974,30,Female,New York,High School,Basic Plan
-975,63,Female,Los Angeles,Associate's,Ultimate Plan
-976,52,Female,Los Angeles,High School,Ultimate Plan
-977,78,Female,Los Angeles,High School,Premium Plan
-978,23,Male,Houston,Associate's,Premium Plan
-979,35,Female,Miami,Master's,Premium Plan
-980,68,Male,Houston,Associate's,Ultimate Plan
-981,22,Female,Chicago,Associate's,Ultimate Plan
-982,64,Male,Los Angeles,Bachelor's,Ultimate Plan
-983,42,Male,Chicago,Bachelor's,Premium Plan
-984,19,Female,New York,Associate's,Basic Plan
-985,27,Male,New York,Associate's,Ultimate Plan
-986,73,Male,Houston,Bachelor's,Basic Plan
-987,47,Female,Miami,High School,Basic Plan
-988,67,Male,Chicago,Associate's,Standard Plan
-989,76,Female,Miami,Master's,Premium Plan
-990,62,Female,Houston,Master's,Ultimate Plan
-991,22,Female,New York,Master's,Premium Plan
-992,72,Male,Miami,Associate's,Basic Plan
-993,73,Male,Miami,High School,Standard Plan
-994,50,Male,New York,High School,Premium Plan
-995,71,Female,Chicago,Bachelor's,Basic Plan
-996,18,Male,New York,Associate's,Ultimate Plan
-997,35,Female,Miami,High School,Standard Plan
-998,49,Female,Chicago,Associate's,Basic Plan
-999,64,Male,Chicago,Bachelor's,Standard Plan
-1000,66,Female,New York,Bachelor's,Ultimate Plan
-4d8d3024-9c4a-461d-ac4b-25201fb99383,56,Male,Miami,High School,Ultimate Plan
-e91a5ec9-e581-4982-bf39-c1b45227b217,21,Male,Los Angeles,Bachelor's,Ultimate Plan
+Customer ID,Age,Gender,Location,Education Level,BestServiceName,BestServiceNameTopsis,BestServiceNameCosine,BestServiceNameIFS
+1,56,Male,Miami,High School,Ultimate Plan,,,
+2,69,Male,New York,Associate's,Ultimate Plan,,,
+3,46,Female,Chicago,Bachelor's,Ultimate Plan,,,
+4,32,Male,Los Angeles,Associate's,Ultimate Plan,,,
+5,60,Male,Chicago,High School,Premium Plan,,,
+6,25,Female,Miami,High School,Basic Plan,,,
+7,78,Male,Los Angeles,Master's,Premium Plan,,,
+8,38,Male,Houston,Bachelor's,Ultimate Plan,,,
+9,56,Male,Chicago,Bachelor's,Basic Plan,,,
+10,75,Male,Los Angeles,High School,Standard Plan,,,
+11,36,Male,Chicago,Bachelor's,Premium Plan,,,
+12,40,Female,Los Angeles,Master's,Ultimate Plan,,,
+13,28,Male,New York,Associate's,Basic Plan,,,
+14,28,Male,Chicago,Bachelor's,Premium Plan,,,
+15,41,Male,Houston,High School,Basic Plan,,,
+16,70,Male,Houston,Associate's,Standard Plan,,,
+17,53,Male,Miami,Associate's,Basic Plan,,,
+18,57,Female,Los Angeles,Master's,Premium Plan,,,
+19,41,Male,Chicago,High School,Basic Plan,,,
+20,20,Female,Miami,Bachelor's,Standard Plan,,,
+21,39,Female,Chicago,High School,Ultimate Plan,,,
+22,70,Male,Los Angeles,Associate's,Basic Plan,,,
+23,19,Male,Houston,High School,Ultimate Plan,,,
+24,41,Male,New York,Bachelor's,Basic Plan,,,
+25,61,Male,Houston,Bachelor's,Standard Plan,,,
+26,47,Female,Miami,Master's,Ultimate Plan,,,
+27,55,Male,New York,Bachelor's,Standard Plan,,,
+28,19,Male,Miami,Bachelor's,Basic Plan,,,
+29,77,Male,Los Angeles,High School,Standard Plan,,,
+30,38,Male,New York,High School,Ultimate Plan,,,
+31,50,Male,Miami,Associate's,Ultimate Plan,,,
+32,29,Male,Los Angeles,Master's,Ultimate Plan,,,
+33,75,Female,Houston,High School,Premium Plan,,,
+34,39,Female,Los Angeles,Bachelor's,Premium Plan,,,
+35,78,Male,Chicago,Associate's,Standard Plan,,,
+36,61,Male,Los Angeles,High School,Premium Plan,,,
+37,42,Male,Los Angeles,Master's,Ultimate Plan,,,
+38,66,Female,Chicago,Master's,Premium Plan,,,
+39,44,Male,Miami,Associate's,Basic Plan,,,
+40,76,Female,Miami,Associate's,Premium Plan,,,
+41,59,Male,Los Angeles,Associate's,Standard Plan,,,
+42,45,Male,Chicago,Associate's,Ultimate Plan,,,
+43,77,Male,Chicago,Associate's,Basic Plan,,,
+44,33,Male,Houston,Bachelor's,Ultimate Plan,,,
+45,32,Female,Miami,Bachelor's,Ultimate Plan,,,
+46,79,Female,New York,High School,Premium Plan,,,
+47,79,Male,Miami,Master's,Premium Plan,,,
+48,64,Male,Miami,Bachelor's,Standard Plan,,,
+49,79,Female,Houston,Bachelor's,Basic Plan,,,
+50,68,Female,New York,Bachelor's,Premium Plan,,,
+51,61,Female,Houston,High School,Standard Plan,,,
+52,72,Female,New York,Associate's,Standard Plan,,,
+53,69,Male,Los Angeles,High School,Standard Plan,,,
+54,74,Female,New York,Master's,Premium Plan,,,
+55,20,Male,Houston,Master's,Standard Plan,,,
+56,54,Female,Miami,Master's,Basic Plan,,,
+57,68,Female,New York,Master's,Basic Plan,,,
+58,24,Female,New York,Bachelor's,Ultimate Plan,,,
+59,38,Female,Chicago,Bachelor's,Ultimate Plan,,,
+60,26,Female,Miami,High School,Ultimate Plan,,,
+61,56,Male,Los Angeles,Associate's,Ultimate Plan,,,
+62,35,Male,Houston,Master's,Ultimate Plan,,,
+63,21,Female,Los Angeles,High School,Premium Plan,,,
+64,42,Female,Miami,Bachelor's,Standard Plan,,,
+65,77,Male,New York,Bachelor's,Basic Plan,,,
+66,31,Female,New York,Associate's,Basic Plan,,,
+67,67,Female,Miami,Associate's,Basic Plan,,,
+68,75,Male,New York,Associate's,Premium Plan,,,
+69,26,Female,New York,High School,Premium Plan,,,
+70,43,Female,New York,Bachelor's,Ultimate Plan,,,
+71,70,Male,Houston,Bachelor's,Ultimate Plan,,,
+72,19,Male,Houston,Associate's,Standard Plan,,,
+73,37,Male,Chicago,Master's,Ultimate Plan,,,
+74,45,Female,Los Angeles,Associate's,Standard Plan,,,
+75,64,Male,Miami,High School,Basic Plan,,,
+76,77,Male,Miami,Associate's,Premium Plan,,,
+77,24,Male,Miami,Associate's,Standard Plan,,,
+78,61,Male,Chicago,High School,Premium Plan,,,
+79,78,Male,Houston,Associate's,Basic Plan,,,
+80,25,Male,Chicago,Bachelor's,Premium Plan,,,
+81,64,Female,Miami,Master's,Standard Plan,,,
+82,52,Female,Los Angeles,Associate's,Standard Plan,,,
+83,31,Male,New York,High School,Standard Plan,,,
+84,34,Male,Houston,Master's,Standard Plan,,,
+85,53,Male,Houston,High School,Basic Plan,,,
+86,67,Female,Chicago,Master's,Basic Plan,,,
+87,57,Female,Houston,Master's,Premium Plan,,,
+88,21,Female,Miami,Associate's,Ultimate Plan,,,
+89,19,Female,Miami,Bachelor's,Ultimate Plan,,,
+90,79,Female,Chicago,Associate's,Standard Plan,,,
+91,23,Female,Miami,High School,Standard Plan,,,
+92,71,Female,Los Angeles,High School,Standard Plan,,,
+93,59,Female,Chicago,Master's,Ultimate Plan,,,
+94,21,Female,Los Angeles,Master's,Premium Plan,,,
+95,71,Male,New York,Bachelor's,Ultimate Plan,,,
+96,46,Male,Los Angeles,Associate's,Ultimate Plan,,,
+97,35,Male,New York,High School,Ultimate Plan,,,
+98,43,Male,New York,Master's,Ultimate Plan,,,
+99,61,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+100,51,Female,Chicago,High School,Basic Plan,,,
+101,27,Male,Miami,Master's,Basic Plan,,,
+102,79,Female,Miami,High School,Premium Plan,,,
+103,53,Male,New York,Bachelor's,Standard Plan,,,
+104,31,Female,New York,Bachelor's,Premium Plan,,,
+105,48,Male,Chicago,High School,Premium Plan,,,
+106,65,Female,Houston,Associate's,Premium Plan,,,
+107,32,Female,Los Angeles,High School,Basic Plan,,,
+108,25,Male,New York,Master's,Ultimate Plan,,,
+109,31,Female,Miami,Associate's,Premium Plan,,,
+110,40,Male,Chicago,Master's,Basic Plan,,,
+111,77,Male,Los Angeles,High School,Basic Plan,,,
+112,74,Male,Chicago,Associate's,Premium Plan,,,
+113,79,Male,Los Angeles,Master's,Basic Plan,,,
+114,57,Female,Los Angeles,High School,Basic Plan,,,
+115,38,Female,New York,High School,Standard Plan,,,
+116,33,Female,Chicago,Associate's,Premium Plan,,,
+117,62,Male,Chicago,High School,Ultimate Plan,,,
+118,35,Female,Miami,Bachelor's,Standard Plan,,,
+119,64,Male,Miami,Master's,Basic Plan,,,
+120,70,Female,New York,Master's,Ultimate Plan,,,
+121,41,Female,New York,High School,Basic Plan,,,
+122,43,Female,Houston,High School,Premium Plan,,,
+123,42,Male,Miami,Bachelor's,Basic Plan,,,
+124,77,Female,Los Angeles,Associate's,Standard Plan,,,
+125,77,Female,Chicago,High School,Standard Plan,,,
+126,77,Male,New York,High School,Premium Plan,,,
+127,62,Female,Chicago,High School,Standard Plan,,,
+128,58,Male,Chicago,High School,Standard Plan,,,
+129,46,Female,Houston,Master's,Standard Plan,,,
+130,32,Male,Miami,High School,Premium Plan,,,
+131,62,Male,New York,Master's,Premium Plan,,,
+132,18,Female,Chicago,High School,Ultimate Plan,,,
+133,42,Male,New York,Associate's,Premium Plan,,,
+134,24,Male,Los Angeles,Bachelor's,Standard Plan,,,
+135,26,Male,Houston,Associate's,Premium Plan,,,
+136,41,Male,Los Angeles,High School,Ultimate Plan,,,
+137,18,Male,New York,High School,Basic Plan,,,
+138,61,Male,New York,High School,Basic Plan,,,
+139,25,Female,Miami,Associate's,Standard Plan,,,
+140,41,Male,Chicago,High School,Premium Plan,,,
+141,28,Male,Chicago,Associate's,Standard Plan,,,
+142,68,Female,Los Angeles,Master's,Standard Plan,,,
+143,34,Female,Houston,Bachelor's,Basic Plan,,,
+144,25,Female,Chicago,Bachelor's,Standard Plan,,,
+145,52,Female,Miami,Associate's,Basic Plan,,,
+146,52,Female,Los Angeles,Master's,Premium Plan,,,
+147,50,Female,Los Angeles,Associate's,Standard Plan,,,
+148,76,Female,Miami,Master's,Basic Plan,,,
+149,22,Male,Houston,High School,Standard Plan,,,
+150,59,Male,Miami,Master's,Basic Plan,,,
+151,56,Female,Houston,Master's,Premium Plan,,,
+152,75,Male,Miami,Master's,Basic Plan,,,
+153,58,Male,Miami,Bachelor's,Premium Plan,,,
+154,45,Male,New York,Master's,Basic Plan,,,
+155,24,Female,Los Angeles,High School,Basic Plan,,,
+156,26,Female,Miami,High School,Premium Plan,,,
+157,25,Male,Miami,High School,Ultimate Plan,,,
+158,29,Female,Chicago,Master's,Basic Plan,,,
+159,51,Male,Los Angeles,Associate's,Standard Plan,,,
+160,50,Male,Chicago,Associate's,Ultimate Plan,,,
+161,65,Male,Los Angeles,High School,Premium Plan,,,
+162,72,Male,Chicago,Bachelor's,Ultimate Plan,,,
+163,40,Female,Miami,Associate's,Ultimate Plan,,,
+164,79,Female,Miami,Master's,Basic Plan,,,
+165,41,Female,New York,Associate's,Ultimate Plan,,,
+166,54,Male,Chicago,High School,Standard Plan,,,
+167,52,Female,Houston,Bachelor's,Standard Plan,,,
+168,61,Male,New York,Associate's,Premium Plan,,,
+169,57,Female,Chicago,Associate's,Ultimate Plan,,,
+170,39,Male,Chicago,High School,Basic Plan,,,
+171,44,Male,New York,Bachelor's,Basic Plan,,,
+172,52,Male,Miami,Bachelor's,Ultimate Plan,,,
+173,18,Female,Chicago,High School,Standard Plan,,,
+174,52,Female,Miami,Master's,Ultimate Plan,,,
+175,54,Female,New York,Associate's,Basic Plan,,,
+176,64,Female,Miami,Master's,Basic Plan,,,
+177,31,Male,Los Angeles,Associate's,Premium Plan,,,
+178,20,Female,Houston,Associate's,Basic Plan,,,
+179,18,Female,Chicago,Master's,Premium Plan,,,
+180,22,Male,Houston,High School,Standard Plan,,,
+181,43,Male,Miami,High School,Standard Plan,,,
+182,72,Male,Chicago,Associate's,Standard Plan,,,
+183,31,Female,Miami,High School,Ultimate Plan,,,
+184,56,Male,Los Angeles,Associate's,Basic Plan,,,
+185,44,Male,New York,High School,Basic Plan,,,
+186,26,Male,Chicago,Associate's,Ultimate Plan,,,
+187,32,Female,Los Angeles,High School,Standard Plan,,,
+188,32,Male,Los Angeles,Bachelor's,Premium Plan,,,
+189,43,Female,Chicago,Master's,Premium Plan,,,
+190,59,Female,Miami,Bachelor's,Ultimate Plan,,,
+191,77,Male,Los Angeles,Master's,Ultimate Plan,,,
+192,30,Male,Houston,Master's,Standard Plan,,,
+193,68,Female,Los Angeles,Associate's,Standard Plan,,,
+194,49,Male,Miami,Master's,Premium Plan,,,
+195,56,Male,Miami,Bachelor's,Ultimate Plan,,,
+196,66,Female,Houston,Bachelor's,Premium Plan,,,
+197,69,Female,Los Angeles,High School,Premium Plan,,,
+198,78,Male,Miami,Bachelor's,Premium Plan,,,
+199,49,Female,Chicago,High School,Basic Plan,,,
+200,21,Male,New York,Master's,Premium Plan,,,
+201,47,Male,New York,Bachelor's,Ultimate Plan,,,
+202,54,Male,New York,Master's,Basic Plan,,,
+203,40,Female,Los Angeles,Bachelor's,Premium Plan,,,
+204,56,Male,Houston,Bachelor's,Basic Plan,,,
+205,62,Male,Miami,High School,Basic Plan,,,
+206,32,Male,Chicago,Master's,Standard Plan,,,
+207,60,Female,Chicago,Bachelor's,Premium Plan,,,
+208,46,Female,Los Angeles,Associate's,Ultimate Plan,,,
+209,53,Female,New York,Master's,Ultimate Plan,,,
+210,30,Female,Los Angeles,Master's,Ultimate Plan,,,
+211,49,Female,Houston,Master's,Standard Plan,,,
+212,24,Male,Houston,High School,Ultimate Plan,,,
+213,76,Female,Miami,Associate's,Ultimate Plan,,,
+214,68,Female,Miami,Master's,Ultimate Plan,,,
+215,39,Female,Houston,Bachelor's,Ultimate Plan,,,
+216,45,Male,Houston,Bachelor's,Standard Plan,,,
+217,19,Female,Houston,High School,Ultimate Plan,,,
+218,59,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+219,62,Male,Houston,Master's,Basic Plan,,,
+220,79,Female,Chicago,Bachelor's,Ultimate Plan,,,
+221,74,Male,New York,Master's,Basic Plan,,,
+222,70,Male,Houston,Bachelor's,Ultimate Plan,,,
+223,23,Male,New York,Associate's,Ultimate Plan,,,
+224,45,Male,Los Angeles,High School,Standard Plan,,,
+225,45,Male,New York,High School,Ultimate Plan,,,
+226,61,Female,Los Angeles,Associate's,Standard Plan,,,
+227,61,Male,Chicago,Associate's,Standard Plan,,,
+228,37,Male,Los Angeles,High School,Basic Plan,,,
+229,47,Female,Los Angeles,Associate's,Standard Plan,,,
+230,79,Male,Miami,Master's,Basic Plan,,,
+231,28,Female,Houston,Bachelor's,Standard Plan,,,
+232,75,Female,Houston,High School,Ultimate Plan,,,
+233,72,Female,Chicago,Associate's,Ultimate Plan,,,
+234,45,Male,Chicago,Master's,Basic Plan,,,
+235,42,Male,Houston,High School,Ultimate Plan,,,
+236,56,Male,Miami,Associate's,Standard Plan,,,
+237,79,Female,Houston,High School,Premium Plan,,,
+238,50,Male,Miami,Associate's,Basic Plan,,,
+239,18,Male,Chicago,High School,Standard Plan,,,
+240,74,Male,New York,Master's,Standard Plan,,,
+241,44,Female,Chicago,Master's,Ultimate Plan,,,
+242,79,Female,Chicago,Bachelor's,Premium Plan,,,
+243,74,Male,Los Angeles,High School,Premium Plan,,,
+244,69,Male,Los Angeles,Bachelor's,Standard Plan,,,
+245,30,Male,Los Angeles,High School,Premium Plan,,,
+246,58,Male,Los Angeles,Associate's,Premium Plan,,,
+247,20,Female,Miami,Associate's,Ultimate Plan,,,
+248,56,Female,Houston,Bachelor's,Premium Plan,,,
+249,23,Female,New York,High School,Ultimate Plan,,,
+250,25,Female,Chicago,Bachelor's,Standard Plan,,,
+251,44,Male,Miami,Master's,Basic Plan,,,
+252,26,Male,New York,Bachelor's,Standard Plan,,,
+253,79,Male,Miami,Bachelor's,Ultimate Plan,,,
+254,54,Female,Miami,Associate's,Premium Plan,,,
+255,50,Male,Chicago,Bachelor's,Standard Plan,,,
+256,68,Female,Houston,High School,Ultimate Plan,,,
+257,59,Female,Los Angeles,Associate's,Standard Plan,,,
+258,61,Male,Houston,Bachelor's,Premium Plan,,,
+259,41,Male,Chicago,Master's,Premium Plan,,,
+260,32,Male,Chicago,Bachelor's,Ultimate Plan,,,
+261,76,Female,Chicago,Bachelor's,Premium Plan,,,
+262,71,Male,New York,Bachelor's,Ultimate Plan,,,
+263,49,Female,Houston,Associate's,Standard Plan,,,
+264,49,Male,Houston,High School,Premium Plan,,,
+265,41,Female,Miami,Master's,Standard Plan,,,
+266,58,Female,Miami,Bachelor's,Basic Plan,,,
+267,69,Male,Miami,High School,Standard Plan,,,
+268,66,Female,Chicago,High School,Standard Plan,,,
+269,79,Female,Houston,Associate's,Ultimate Plan,,,
+270,66,Male,Chicago,Master's,Premium Plan,,,
+271,75,Female,New York,Associate's,Ultimate Plan,,,
+272,69,Male,Miami,High School,Ultimate Plan,,,
+273,29,Female,Chicago,High School,Premium Plan,,,
+274,79,Male,Chicago,High School,Premium Plan,,,
+275,56,Male,New York,Associate's,Standard Plan,,,
+276,19,Female,Los Angeles,Master's,Ultimate Plan,,,
+277,20,Female,Houston,Bachelor's,Standard Plan,,,
+278,66,Female,Los Angeles,Associate's,Ultimate Plan,,,
+279,54,Female,Miami,High School,Basic Plan,,,
+280,66,Female,Chicago,Associate's,Ultimate Plan,,,
+281,73,Male,New York,High School,Ultimate Plan,,,
+282,34,Female,New York,Bachelor's,Standard Plan,,,
+283,76,Male,Houston,Bachelor's,Basic Plan,,,
+284,66,Male,Los Angeles,Master's,Ultimate Plan,,,
+285,19,Female,Houston,High School,Premium Plan,,,
+286,19,Male,Chicago,Master's,Basic Plan,,,
+287,45,Male,Houston,Master's,Ultimate Plan,,,
+288,71,Male,New York,Bachelor's,Standard Plan,,,
+289,40,Male,New York,Associate's,Basic Plan,,,
+290,54,Female,Miami,Associate's,Basic Plan,,,
+291,49,Male,Miami,Master's,Premium Plan,,,
+292,50,Female,Chicago,Bachelor's,Standard Plan,,,
+293,18,Female,Los Angeles,High School,Standard Plan,,,
+294,36,Male,Houston,Associate's,Premium Plan,,,
+295,79,Female,Chicago,Master's,Standard Plan,,,
+296,19,Female,Miami,Associate's,Premium Plan,,,
+297,70,Female,Houston,Associate's,Premium Plan,,,
+298,61,Male,Miami,High School,Ultimate Plan,,,
+299,43,Female,Houston,Bachelor's,Premium Plan,,,
+300,49,Female,Los Angeles,High School,Standard Plan,,,
+301,23,Female,Chicago,Bachelor's,Premium Plan,,,
+302,49,Male,Houston,Associate's,Premium Plan,,,
+303,72,Female,New York,Master's,Basic Plan,,,
+304,21,Male,New York,High School,Premium Plan,,,
+305,72,Male,Houston,Bachelor's,Basic Plan,,,
+306,28,Male,Houston,Associate's,Premium Plan,,,
+307,73,Male,Houston,Bachelor's,Basic Plan,,,
+308,76,Male,New York,Bachelor's,Standard Plan,,,
+309,34,Male,New York,Bachelor's,Premium Plan,,,
+310,55,Female,Houston,Associate's,Ultimate Plan,,,
+311,41,Male,Miami,Master's,Ultimate Plan,,,
+312,22,Female,Miami,Master's,Ultimate Plan,,,
+313,69,Female,Los Angeles,Master's,Premium Plan,,,
+314,51,Male,Chicago,Bachelor's,Basic Plan,,,
+315,23,Female,Miami,Associate's,Premium Plan,,,
+316,39,Female,New York,Bachelor's,Standard Plan,,,
+317,28,Female,Miami,Master's,Ultimate Plan,,,
+318,65,Female,Los Angeles,Master's,Basic Plan,,,
+319,33,Male,Los Angeles,Associate's,Basic Plan,,,
+320,50,Female,Chicago,Bachelor's,Ultimate Plan,,,
+321,26,Male,Miami,High School,Standard Plan,,,
+322,77,Female,New York,High School,Standard Plan,,,
+323,76,Female,New York,Master's,Premium Plan,,,
+324,23,Male,Houston,Associate's,Standard Plan,,,
+325,33,Female,New York,Bachelor's,Basic Plan,,,
+326,46,Female,Chicago,Bachelor's,Premium Plan,,,
+327,20,Female,Chicago,Master's,Standard Plan,,,
+328,37,Male,New York,Master's,Basic Plan,,,
+329,77,Female,New York,Bachelor's,Ultimate Plan,,,
+330,76,Male,Houston,Bachelor's,Premium Plan,,,
+331,53,Female,New York,Master's,Premium Plan,,,
+332,36,Male,Houston,Bachelor's,Basic Plan,,,
+333,43,Male,Houston,High School,Premium Plan,,,
+334,20,Female,New York,Master's,Basic Plan,,,
+335,36,Female,Los Angeles,Bachelor's,Basic Plan,,,
+336,37,Male,Los Angeles,Master's,Basic Plan,,,
+337,49,Male,Houston,Associate's,Premium Plan,,,
+338,24,Female,New York,Master's,Ultimate Plan,,,
+339,69,Male,Los Angeles,Master's,Ultimate Plan,,,
+340,58,Female,New York,Associate's,Premium Plan,,,
+341,50,Female,New York,High School,Premium Plan,,,
+342,57,Female,New York,Bachelor's,Ultimate Plan,,,
+343,56,Female,Miami,Associate's,Basic Plan,,,
+344,35,Male,New York,Master's,Ultimate Plan,,,
+345,57,Female,Miami,Bachelor's,Ultimate Plan,,,
+346,18,Male,Houston,Associate's,Basic Plan,,,
+347,28,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+348,45,Male,Los Angeles,Bachelor's,Basic Plan,,,
+349,74,Female,Los Angeles,Associate's,Basic Plan,,,
+350,42,Male,Los Angeles,Bachelor's,Standard Plan,,,
+351,67,Male,Los Angeles,High School,Premium Plan,,,
+352,40,Female,Los Angeles,Associate's,Premium Plan,,,
+353,48,Female,Los Angeles,High School,Ultimate Plan,,,
+354,47,Female,Houston,Master's,Standard Plan,,,
+355,59,Female,New York,Bachelor's,Standard Plan,,,
+356,52,Male,Chicago,Master's,Premium Plan,,,
+357,24,Female,Miami,Master's,Premium Plan,,,
+358,77,Male,Chicago,Bachelor's,Standard Plan,,,
+359,33,Male,Chicago,Associate's,Premium Plan,,,
+360,43,Female,New York,Bachelor's,Premium Plan,,,
+361,65,Male,New York,Master's,Ultimate Plan,,,
+362,74,Male,New York,Master's,Standard Plan,,,
+363,69,Male,Los Angeles,Associate's,Ultimate Plan,,,
+364,77,Male,Houston,Bachelor's,Premium Plan,,,
+365,66,Female,Los Angeles,Master's,Standard Plan,,,
+366,19,Female,Houston,High School,Basic Plan,,,
+367,18,Female,Houston,Master's,Standard Plan,,,
+368,65,Female,Chicago,Master's,Basic Plan,,,
+369,79,Male,Chicago,Associate's,Standard Plan,,,
+370,29,Male,Houston,High School,Basic Plan,,,
+371,22,Female,Houston,Master's,Standard Plan,,,
+372,54,Female,Los Angeles,Master's,Ultimate Plan,,,
+373,49,Female,Los Angeles,High School,Standard Plan,,,
+374,76,Male,Chicago,Bachelor's,Ultimate Plan,,,
+375,72,Female,New York,Bachelor's,Basic Plan,,,
+376,26,Female,Houston,Master's,Basic Plan,,,
+377,58,Female,Los Angeles,Master's,Premium Plan,,,
+378,52,Male,Chicago,Bachelor's,Standard Plan,,,
+379,36,Male,Los Angeles,Associate's,Standard Plan,,,
+380,65,Male,Houston,High School,Ultimate Plan,,,
+381,33,Male,Houston,High School,Premium Plan,,,
+382,20,Male,Miami,Associate's,Standard Plan,,,
+383,37,Male,New York,Associate's,Premium Plan,,,
+384,41,Male,Miami,Associate's,Basic Plan,,,
+385,71,Male,Chicago,Associate's,Basic Plan,,,
+386,73,Female,Los Angeles,Associate's,Standard Plan,,,
+387,50,Female,Chicago,Associate's,Standard Plan,,,
+388,41,Male,Houston,High School,Basic Plan,,,
+389,69,Male,Miami,Associate's,Ultimate Plan,,,
+390,28,Female,Miami,Bachelor's,Standard Plan,,,
+391,66,Male,Miami,Associate's,Basic Plan,,,
+392,25,Male,Chicago,Associate's,Basic Plan,,,
+393,53,Male,Houston,High School,Premium Plan,,,
+394,55,Female,Los Angeles,High School,Ultimate Plan,,,
+395,57,Female,Los Angeles,Associate's,Ultimate Plan,,,
+396,37,Female,Chicago,High School,Basic Plan,,,
+397,79,Female,Miami,Master's,Basic Plan,,,
+398,52,Female,New York,High School,Standard Plan,,,
+399,65,Male,Chicago,High School,Standard Plan,,,
+400,79,Female,Chicago,High School,Standard Plan,,,
+401,42,Male,Houston,High School,Basic Plan,,,
+402,52,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+403,42,Female,Chicago,Bachelor's,Premium Plan,,,
+404,46,Female,Chicago,Bachelor's,Standard Plan,,,
+405,35,Male,Miami,Associate's,Ultimate Plan,,,
+406,63,Male,Miami,Associate's,Ultimate Plan,,,
+407,35,Male,New York,Master's,Standard Plan,,,
+408,19,Female,Houston,Bachelor's,Basic Plan,,,
+409,71,Female,New York,Associate's,Ultimate Plan,,,
+410,52,Female,Miami,High School,Basic Plan,,,
+411,33,Female,Los Angeles,High School,Premium Plan,,,
+412,78,Female,Miami,Bachelor's,Premium Plan,,,
+413,58,Male,Houston,Master's,Premium Plan,,,
+414,53,Female,Miami,Master's,Ultimate Plan,,,
+415,50,Male,Houston,High School,Basic Plan,,,
+416,21,Male,Houston,Master's,Ultimate Plan,,,
+417,50,Male,Houston,Bachelor's,Premium Plan,,,
+418,31,Female,Houston,High School,Ultimate Plan,,,
+419,38,Female,Houston,Associate's,Standard Plan,,,
+420,65,Female,Los Angeles,Associate's,Standard Plan,,,
+421,37,Male,New York,Master's,Premium Plan,,,
+422,73,Male,Chicago,High School,Standard Plan,,,
+423,25,Male,New York,High School,Standard Plan,,,
+424,24,Male,Houston,Associate's,Ultimate Plan,,,
+425,20,Male,Los Angeles,High School,Ultimate Plan,,,
+426,34,Male,Miami,High School,Premium Plan,,,
+427,50,Female,Los Angeles,High School,Ultimate Plan,,,
+428,65,Female,Houston,Master's,Basic Plan,,,
+429,29,Female,Los Angeles,High School,Basic Plan,,,
+430,76,Female,Los Angeles,Bachelor's,Premium Plan,,,
+431,68,Male,Houston,Master's,Standard Plan,,,
+432,39,Male,Los Angeles,High School,Standard Plan,,,
+433,72,Female,Chicago,High School,Premium Plan,,,
+434,39,Male,Chicago,Bachelor's,Basic Plan,,,
+435,63,Female,Los Angeles,Master's,Ultimate Plan,,,
+436,47,Female,Miami,Associate's,Ultimate Plan,,,
+437,55,Female,Houston,Associate's,Basic Plan,,,
+438,55,Male,Chicago,Master's,Standard Plan,,,
+439,62,Female,Miami,High School,Ultimate Plan,,,
+440,68,Female,Los Angeles,High School,Standard Plan,,,
+441,71,Female,Miami,Associate's,Basic Plan,,,
+442,25,Male,New York,Associate's,Basic Plan,,,
+443,44,Male,Chicago,Associate's,Premium Plan,,,
+444,44,Female,Los Angeles,Bachelor's,Basic Plan,,,
+445,51,Male,Houston,Associate's,Standard Plan,,,
+446,38,Male,Los Angeles,Bachelor's,Standard Plan,,,
+447,47,Male,Houston,Master's,Ultimate Plan,,,
+448,50,Male,Los Angeles,High School,Ultimate Plan,,,
+449,45,Male,Miami,Associate's,Premium Plan,,,
+450,64,Male,Miami,High School,Standard Plan,,,
+451,50,Male,Miami,High School,Basic Plan,,,
+452,22,Male,New York,Associate's,Premium Plan,,,
+453,77,Male,Houston,Associate's,Basic Plan,,,
+454,78,Male,Miami,Master's,Standard Plan,,,
+455,65,Female,New York,Bachelor's,Ultimate Plan,,,
+456,36,Female,Houston,Bachelor's,Premium Plan,,,
+457,21,Male,Los Angeles,High School,Standard Plan,,,
+458,52,Female,New York,Associate's,Premium Plan,,,
+459,66,Female,Chicago,Master's,Basic Plan,,,
+460,34,Male,New York,Master's,Premium Plan,,,
+461,61,Male,New York,Master's,Ultimate Plan,,,
+462,45,Male,Houston,Master's,Ultimate Plan,,,
+463,47,Female,Los Angeles,Master's,Basic Plan,,,
+464,46,Female,Chicago,Bachelor's,Basic Plan,,,
+465,63,Male,Miami,Bachelor's,Ultimate Plan,,,
+466,70,Male,Miami,Bachelor's,Ultimate Plan,,,
+467,23,Male,New York,Associate's,Ultimate Plan,,,
+468,52,Female,Houston,High School,Premium Plan,,,
+469,77,Female,Houston,Master's,Ultimate Plan,,,
+470,58,Female,Miami,Associate's,Standard Plan,,,
+471,54,Female,Chicago,Master's,Standard Plan,,,
+472,41,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+473,46,Male,Chicago,Associate's,Standard Plan,,,
+474,66,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+475,63,Male,Miami,Master's,Basic Plan,,,
+476,70,Female,Los Angeles,Master's,Ultimate Plan,,,
+477,48,Female,Houston,High School,Basic Plan,,,
+478,52,Male,New York,Master's,Basic Plan,,,
+479,77,Male,New York,Bachelor's,Basic Plan,,,
+480,50,Female,Miami,Master's,Ultimate Plan,,,
+481,69,Male,Houston,High School,Premium Plan,,,
+482,78,Female,Chicago,High School,Ultimate Plan,,,
+483,38,Male,Houston,Bachelor's,Standard Plan,,,
+484,49,Male,New York,Associate's,Ultimate Plan,,,
+485,40,Male,New York,Master's,Premium Plan,,,
+486,50,Male,Houston,High School,Ultimate Plan,,,
+487,20,Male,Houston,Master's,Premium Plan,,,
+488,35,Male,New York,Master's,Premium Plan,,,
+489,42,Male,Chicago,Associate's,Basic Plan,,,
+490,59,Female,Miami,High School,Ultimate Plan,,,
+491,48,Female,Miami,Master's,Standard Plan,,,
+492,71,Female,Houston,High School,Premium Plan,,,
+493,75,Female,Miami,Bachelor's,Premium Plan,,,
+494,20,Female,New York,Bachelor's,Premium Plan,,,
+495,57,Male,New York,Master's,Premium Plan,,,
+496,63,Male,Houston,High School,Ultimate Plan,,,
+497,41,Female,Houston,Master's,Standard Plan,,,
+498,67,Male,Houston,High School,Premium Plan,,,
+499,49,Female,Chicago,High School,Standard Plan,,,
+500,64,Female,Miami,Associate's,Ultimate Plan,,,
+501,39,Male,Houston,Associate's,Basic Plan,,,
+502,40,Male,Los Angeles,Associate's,Standard Plan,,,
+503,19,Male,Los Angeles,Master's,Standard Plan,,,
+504,44,Female,New York,Associate's,Standard Plan,,,
+505,59,Male,Miami,Associate's,Premium Plan,,,
+506,19,Female,Houston,Bachelor's,Ultimate Plan,,,
+507,43,Female,Los Angeles,High School,Premium Plan,,,
+508,34,Female,Miami,High School,Premium Plan,,,
+509,57,Male,New York,Associate's,Premium Plan,,,
+510,50,Male,Chicago,High School,Standard Plan,,,
+511,26,Female,Miami,Bachelor's,Premium Plan,,,
+512,60,Male,Miami,Bachelor's,Ultimate Plan,,,
+513,71,Male,Chicago,Associate's,Premium Plan,,,
+514,65,Male,Miami,Bachelor's,Standard Plan,,,
+515,56,Female,New York,High School,Standard Plan,,,
+516,46,Female,New York,Master's,Basic Plan,,,
+517,59,Male,Chicago,High School,Premium Plan,,,
+518,72,Female,Houston,Master's,Standard Plan,,,
+519,43,Male,Los Angeles,Associate's,Standard Plan,,,
+520,52,Male,Houston,Master's,Ultimate Plan,,,
+521,67,Male,Miami,Bachelor's,Standard Plan,,,
+522,42,Male,Los Angeles,High School,Basic Plan,,,
+523,41,Female,Chicago,Master's,Ultimate Plan,,,
+524,30,Female,Chicago,High School,Basic Plan,,,
+525,77,Female,Los Angeles,Associate's,Premium Plan,,,
+526,75,Male,New York,Associate's,Ultimate Plan,,,
+527,24,Male,Los Angeles,Bachelor's,Standard Plan,,,
+528,74,Male,Miami,Associate's,Standard Plan,,,
+529,53,Female,New York,Master's,Ultimate Plan,,,
+530,62,Male,Chicago,Associate's,Basic Plan,,,
+531,37,Female,Los Angeles,Bachelor's,Basic Plan,,,
+532,18,Female,Houston,High School,Basic Plan,,,
+533,25,Female,Houston,High School,Standard Plan,,,
+534,63,Female,Miami,Associate's,Ultimate Plan,,,
+535,33,Female,Houston,Master's,Ultimate Plan,,,
+536,31,Female,Los Angeles,Bachelor's,Standard Plan,,,
+537,29,Male,Los Angeles,Master's,Premium Plan,,,
+538,68,Male,Houston,Bachelor's,Standard Plan,,,
+539,40,Female,Los Angeles,Associate's,Premium Plan,,,
+540,32,Female,Miami,Bachelor's,Standard Plan,,,
+541,45,Male,New York,Bachelor's,Basic Plan,,,
+542,51,Female,Miami,Associate's,Premium Plan,,,
+543,19,Female,Miami,Master's,Premium Plan,,,
+544,49,Male,Los Angeles,Associate's,Premium Plan,,,
+545,40,Female,New York,Bachelor's,Basic Plan,,,
+546,39,Female,Los Angeles,Associate's,Premium Plan,,,
+547,68,Female,Chicago,Bachelor's,Premium Plan,,,
+548,42,Male,Los Angeles,Associate's,Standard Plan,,,
+549,75,Male,Los Angeles,High School,Premium Plan,,,
+550,79,Male,Los Angeles,High School,Basic Plan,,,
+551,78,Female,New York,Associate's,Premium Plan,,,
+552,39,Female,Los Angeles,Master's,Ultimate Plan,,,
+553,75,Male,New York,Bachelor's,Standard Plan,,,
+554,75,Female,Houston,High School,Standard Plan,,,
+555,39,Female,Chicago,Master's,Basic Plan,,,
+556,66,Female,New York,Bachelor's,Premium Plan,,,
+557,69,Female,Houston,High School,Standard Plan,,,
+558,59,Female,New York,High School,Premium Plan,,,
+559,23,Male,New York,Associate's,Standard Plan,,,
+560,32,Female,Chicago,Bachelor's,Standard Plan,,,
+561,71,Male,Miami,Master's,Premium Plan,,,
+562,60,Female,Miami,Master's,Standard Plan,,,
+563,77,Male,New York,Master's,Basic Plan,,,
+564,54,Female,Los Angeles,Bachelor's,Basic Plan,,,
+565,50,Male,Houston,Master's,Standard Plan,,,
+566,25,Female,Los Angeles,Master's,Ultimate Plan,,,
+567,70,Male,Los Angeles,Master's,Premium Plan,,,
+568,77,Female,New York,Associate's,Ultimate Plan,,,
+569,61,Male,New York,Associate's,Premium Plan,,,
+570,61,Female,New York,Bachelor's,Standard Plan,,,
+571,22,Male,New York,Bachelor's,Premium Plan,,,
+572,56,Male,Miami,Master's,Ultimate Plan,,,
+573,21,Female,New York,Associate's,Basic Plan,,,
+574,23,Female,Miami,High School,Standard Plan,,,
+575,62,Male,Miami,High School,Standard Plan,,,
+576,49,Female,New York,Master's,Standard Plan,,,
+577,69,Male,Chicago,Master's,Basic Plan,,,
+578,47,Male,Houston,Associate's,Premium Plan,,,
+579,64,Male,Los Angeles,Associate's,Premium Plan,,,
+580,52,Female,Miami,Associate's,Standard Plan,,,
+581,72,Male,Houston,Bachelor's,Premium Plan,,,
+582,57,Male,Chicago,Bachelor's,Premium Plan,,,
+583,69,Female,Los Angeles,Master's,Basic Plan,,,
+584,33,Female,Los Angeles,Bachelor's,Standard Plan,,,
+585,30,Female,Miami,Associate's,Ultimate Plan,,,
+586,67,Female,New York,Associate's,Standard Plan,,,
+587,77,Male,Chicago,Bachelor's,Basic Plan,,,
+588,59,Male,Miami,High School,Ultimate Plan,,,
+589,47,Male,Chicago,Master's,Basic Plan,,,
+590,36,Male,New York,High School,Basic Plan,,,
+591,34,Female,New York,Master's,Standard Plan,,,
+592,73,Male,Miami,High School,Basic Plan,,,
+593,36,Male,New York,Bachelor's,Premium Plan,,,
+594,45,Female,Houston,Master's,Ultimate Plan,,,
+595,75,Male,Los Angeles,Master's,Basic Plan,,,
+596,72,Male,Miami,Master's,Premium Plan,,,
+597,43,Male,Chicago,Associate's,Premium Plan,,,
+598,54,Male,Houston,Associate's,Basic Plan,,,
+599,43,Male,Miami,High School,Ultimate Plan,,,
+600,70,Male,New York,Bachelor's,Basic Plan,,,
+601,79,Female,New York,Associate's,Basic Plan,,,
+602,40,Female,New York,Master's,Ultimate Plan,,,
+603,26,Male,New York,Associate's,Basic Plan,,,
+604,29,Male,Chicago,Bachelor's,Ultimate Plan,,,
+605,70,Female,Houston,Associate's,Standard Plan,,,
+606,18,Male,Los Angeles,Master's,Ultimate Plan,,,
+607,75,Male,Chicago,High School,Ultimate Plan,,,
+608,75,Male,Chicago,Master's,Ultimate Plan,,,
+609,18,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+610,64,Male,Los Angeles,High School,Ultimate Plan,,,
+611,51,Female,New York,Associate's,Standard Plan,,,
+612,49,Male,Chicago,Associate's,Ultimate Plan,,,
+613,79,Female,Miami,Associate's,Standard Plan,,,
+614,71,Female,Los Angeles,High School,Premium Plan,,,
+615,65,Male,Los Angeles,Master's,Basic Plan,,,
+616,42,Female,Houston,High School,Premium Plan,,,
+617,57,Male,Miami,High School,Basic Plan,,,
+618,62,Female,Miami,Bachelor's,Standard Plan,,,
+619,70,Male,Los Angeles,High School,Basic Plan,,,
+620,18,Male,New York,Associate's,Ultimate Plan,,,
+621,33,Female,Houston,Master's,Premium Plan,,,
+622,78,Male,Miami,Master's,Standard Plan,,,
+623,56,Male,Los Angeles,Master's,Standard Plan,,,
+624,22,Female,Miami,Associate's,Premium Plan,,,
+625,39,Male,Houston,Associate's,Premium Plan,,,
+626,46,Male,Houston,Associate's,Premium Plan,,,
+627,72,Female,Chicago,Associate's,Standard Plan,,,
+628,20,Female,Los Angeles,Associate's,Basic Plan,,,
+629,29,Male,Houston,High School,Basic Plan,,,
+630,43,Male,Chicago,Associate's,Basic Plan,,,
+631,33,Female,Chicago,Associate's,Basic Plan,,,
+632,68,Female,Miami,Associate's,Basic Plan,,,
+633,54,Male,Miami,Associate's,Premium Plan,,,
+634,39,Female,Chicago,Master's,Ultimate Plan,,,
+635,74,Male,Miami,Associate's,Basic Plan,,,
+636,46,Male,Houston,High School,Premium Plan,,,
+637,31,Male,New York,High School,Basic Plan,,,
+638,45,Male,Houston,High School,Standard Plan,,,
+639,22,Male,Chicago,Bachelor's,Premium Plan,,,
+640,64,Female,Chicago,Master's,Standard Plan,,,
+641,66,Female,Houston,Associate's,Premium Plan,,,
+642,47,Female,Miami,Bachelor's,Basic Plan,,,
+643,63,Female,Miami,Associate's,Premium Plan,,,
+644,79,Male,Chicago,Bachelor's,Ultimate Plan,,,
+645,69,Male,Los Angeles,Bachelor's,Basic Plan,,,
+646,22,Male,Miami,High School,Premium Plan,,,
+647,29,Male,Houston,High School,Premium Plan,,,
+648,33,Female,Miami,Bachelor's,Ultimate Plan,,,
+649,43,Male,Houston,High School,Premium Plan,,,
+650,43,Male,Chicago,Bachelor's,Basic Plan,,,
+651,65,Female,Miami,Master's,Ultimate Plan,,,
+652,38,Female,Houston,High School,Premium Plan,,,
+653,56,Female,Chicago,High School,Standard Plan,,,
+654,53,Female,Los Angeles,High School,Standard Plan,,,
+655,50,Male,Houston,Master's,Basic Plan,,,
+656,79,Male,Los Angeles,Bachelor's,Basic Plan,,,
+657,47,Female,Los Angeles,Associate's,Standard Plan,,,
+658,54,Male,New York,High School,Standard Plan,,,
+659,40,Male,Miami,Bachelor's,Premium Plan,,,
+660,75,Male,Houston,Master's,Basic Plan,,,
+661,27,Female,Los Angeles,Associate's,Ultimate Plan,,,
+662,71,Male,New York,High School,Ultimate Plan,,,
+663,22,Female,Chicago,Master's,Basic Plan,,,
+664,53,Male,Houston,Master's,Premium Plan,,,
+665,51,Male,Los Angeles,Associate's,Premium Plan,,,
+666,69,Male,Miami,Bachelor's,Standard Plan,,,
+667,48,Female,New York,High School,Premium Plan,,,
+668,27,Male,Los Angeles,High School,Ultimate Plan,,,
+669,75,Female,Miami,Bachelor's,Standard Plan,,,
+670,36,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+671,75,Female,Houston,Bachelor's,Basic Plan,,,
+672,49,Male,Houston,Associate's,Standard Plan,,,
+673,18,Male,Houston,Associate's,Basic Plan,,,
+674,73,Male,New York,High School,Basic Plan,,,
+675,22,Male,Houston,Associate's,Standard Plan,,,
+676,62,Female,Miami,Master's,Basic Plan,,,
+677,21,Female,Los Angeles,High School,Basic Plan,,,
+678,33,Female,Chicago,Associate's,Standard Plan,,,
+679,41,Male,Miami,Bachelor's,Standard Plan,,,
+680,33,Female,Miami,Master's,Basic Plan,,,
+681,72,Male,Houston,Bachelor's,Premium Plan,,,
+682,19,Female,New York,High School,Ultimate Plan,,,
+683,66,Male,Los Angeles,Bachelor's,Basic Plan,,,
+684,45,Male,New York,Associate's,Standard Plan,,,
+685,49,Female,Los Angeles,Associate's,Standard Plan,,,
+686,44,Female,Los Angeles,High School,Basic Plan,,,
+687,37,Female,New York,Bachelor's,Basic Plan,,,
+688,41,Female,Miami,High School,Basic Plan,,,
+689,29,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+690,67,Female,New York,Master's,Ultimate Plan,,,
+691,52,Female,Los Angeles,Associate's,Basic Plan,,,
+692,77,Female,Chicago,High School,Standard Plan,,,
+693,50,Male,Miami,Master's,Ultimate Plan,,,
+694,50,Male,Houston,Master's,Basic Plan,,,
+695,78,Female,Los Angeles,High School,Premium Plan,,,
+696,68,Male,Chicago,High School,Standard Plan,,,
+697,60,Female,Houston,Master's,Standard Plan,,,
+698,54,Male,Houston,Bachelor's,Premium Plan,,,
+699,29,Male,Los Angeles,Master's,Standard Plan,,,
+700,20,Male,New York,High School,Premium Plan,,,
+701,18,Male,Los Angeles,Master's,Basic Plan,,,
+702,50,Female,Chicago,Bachelor's,Standard Plan,,,
+703,57,Female,Houston,Associate's,Basic Plan,,,
+704,27,Female,Los Angeles,Associate's,Premium Plan,,,
+705,60,Male,New York,Master's,Basic Plan,,,
+706,61,Female,Los Angeles,Bachelor's,Premium Plan,,,
+707,46,Female,Miami,Associate's,Basic Plan,,,
+708,30,Female,New York,Master's,Premium Plan,,,
+709,29,Male,Chicago,Master's,Premium Plan,,,
+710,48,Male,Houston,Bachelor's,Basic Plan,,,
+711,63,Male,Los Angeles,High School,Basic Plan,,,
+712,19,Female,New York,Master's,Standard Plan,,,
+713,78,Female,Miami,High School,Standard Plan,,,
+714,68,Female,New York,High School,Ultimate Plan,,,
+715,67,Male,Miami,Associate's,Ultimate Plan,,,
+716,52,Male,Chicago,High School,Standard Plan,,,
+717,40,Female,Houston,Bachelor's,Basic Plan,,,
+718,34,Male,Chicago,Associate's,Standard Plan,,,
+719,43,Male,Los Angeles,Associate's,Standard Plan,,,
+720,25,Male,New York,Associate's,Ultimate Plan,,,
+721,46,Male,Miami,Master's,Standard Plan,,,
+722,43,Female,Miami,Master's,Premium Plan,,,
+723,27,Male,New York,High School,Standard Plan,,,
+724,43,Male,New York,Associate's,Standard Plan,,,
+725,79,Male,Los Angeles,Associate's,Basic Plan,,,
+726,51,Male,Chicago,Bachelor's,Premium Plan,,,
+727,68,Female,Miami,High School,Basic Plan,,,
+728,58,Female,Los Angeles,Bachelor's,Standard Plan,,,
+729,24,Male,Chicago,High School,Basic Plan,,,
+730,21,Male,Los Angeles,High School,Basic Plan,,,
+731,75,Male,Miami,Master's,Premium Plan,,,
+732,70,Male,New York,Master's,Basic Plan,,,
+733,67,Male,New York,Bachelor's,Premium Plan,,,
+734,62,Male,Chicago,High School,Premium Plan,,,
+735,28,Female,Houston,Associate's,Premium Plan,,,
+736,46,Male,Chicago,Master's,Ultimate Plan,,,
+737,73,Female,Houston,Associate's,Standard Plan,,,
+738,53,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+739,42,Male,Los Angeles,Master's,Ultimate Plan,,,
+740,38,Female,Miami,Master's,Standard Plan,,,
+741,78,Female,Houston,High School,Basic Plan,,,
+742,74,Female,Miami,Bachelor's,Basic Plan,,,
+743,53,Female,New York,High School,Basic Plan,,,
+744,27,Female,Houston,Master's,Standard Plan,,,
+745,54,Female,Chicago,Bachelor's,Premium Plan,,,
+746,26,Male,New York,Master's,Basic Plan,,,
+747,41,Female,New York,Bachelor's,Ultimate Plan,,,
+748,52,Female,Chicago,Master's,Basic Plan,,,
+749,66,Female,New York,Associate's,Ultimate Plan,,,
+750,52,Male,Houston,Associate's,Basic Plan,,,
+751,65,Female,Miami,High School,Standard Plan,,,
+752,53,Male,New York,Associate's,Basic Plan,,,
+753,35,Female,Houston,Master's,Premium Plan,,,
+754,66,Male,Los Angeles,Master's,Premium Plan,,,
+755,56,Male,Houston,Associate's,Basic Plan,,,
+756,49,Female,Miami,High School,Ultimate Plan,,,
+757,41,Female,Houston,Associate's,Ultimate Plan,,,
+758,40,Male,Chicago,Bachelor's,Basic Plan,,,
+759,79,Female,Miami,Bachelor's,Standard Plan,,,
+760,49,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+761,54,Male,Chicago,Associate's,Ultimate Plan,,,
+762,29,Male,Houston,Associate's,Premium Plan,,,
+763,66,Male,Miami,Associate's,Standard Plan,,,
+764,72,Male,Los Angeles,Bachelor's,Basic Plan,,,
+765,30,Female,Chicago,High School,Basic Plan,,,
+766,40,Male,Los Angeles,Master's,Ultimate Plan,,,
+767,42,Male,Houston,Associate's,Premium Plan,,,
+768,52,Female,Los Angeles,High School,Ultimate Plan,,,
+769,58,Male,New York,Master's,Ultimate Plan,,,
+770,47,Female,Chicago,Master's,Premium Plan,,,
+771,34,Female,Los Angeles,Master's,Standard Plan,,,
+772,66,Female,Houston,High School,Basic Plan,,,
+773,79,Male,Houston,High School,Basic Plan,,,
+774,37,Male,Los Angeles,Bachelor's,Standard Plan,,,
+775,65,Male,Houston,High School,Ultimate Plan,,,
+776,42,Female,Miami,High School,Basic Plan,,,
+777,39,Male,Miami,High School,Premium Plan,,,
+778,30,Female,Miami,Master's,Standard Plan,,,
+779,76,Male,New York,Associate's,Basic Plan,,,
+780,36,Female,Los Angeles,Bachelor's,Basic Plan,,,
+781,66,Male,New York,Associate's,Ultimate Plan,,,
+782,53,Male,Houston,Associate's,Ultimate Plan,,,
+783,29,Male,New York,High School,Standard Plan,,,
+784,78,Female,Houston,Bachelor's,Ultimate Plan,,,
+785,58,Female,Houston,Associate's,Standard Plan,,,
+786,36,Male,Chicago,Associate's,Basic Plan,,,
+787,29,Male,Miami,Bachelor's,Ultimate Plan,,,
+788,26,Female,Houston,High School,Ultimate Plan,,,
+789,24,Female,Chicago,Associate's,Standard Plan,,,
+790,45,Female,Miami,Master's,Ultimate Plan,,,
+791,31,Male,Houston,Associate's,Standard Plan,,,
+792,48,Female,Houston,Master's,Standard Plan,,,
+793,69,Male,New York,High School,Basic Plan,,,
+794,36,Female,New York,Associate's,Ultimate Plan,,,
+795,75,Male,Miami,Bachelor's,Premium Plan,,,
+796,64,Female,Houston,Bachelor's,Basic Plan,,,
+797,33,Female,Los Angeles,Associate's,Basic Plan,,,
+798,70,Female,New York,High School,Ultimate Plan,,,
+799,22,Female,Miami,High School,Ultimate Plan,,,
+800,52,Female,Houston,Bachelor's,Standard Plan,,,
+801,29,Male,Houston,Associate's,Ultimate Plan,,,
+802,42,Female,Los Angeles,High School,Ultimate Plan,,,
+803,69,Female,Miami,Bachelor's,Ultimate Plan,,,
+804,76,Female,Houston,Master's,Premium Plan,,,
+805,38,Male,New York,Associate's,Standard Plan,,,
+806,53,Female,Los Angeles,Master's,Ultimate Plan,,,
+807,70,Male,Miami,Master's,Standard Plan,,,
+808,40,Female,Los Angeles,High School,Premium Plan,,,
+809,33,Female,New York,High School,Standard Plan,,,
+810,74,Male,Miami,High School,Basic Plan,,,
+811,56,Female,Los Angeles,Associate's,Premium Plan,,,
+812,62,Male,Chicago,Master's,Premium Plan,,,
+813,70,Male,New York,Associate's,Premium Plan,,,
+814,59,Female,New York,High School,Basic Plan,,,
+815,75,Male,New York,Master's,Standard Plan,,,
+816,56,Female,Chicago,Associate's,Standard Plan,,,
+817,31,Female,Chicago,Associate's,Premium Plan,,,
+818,48,Male,Houston,Bachelor's,Ultimate Plan,,,
+819,75,Male,Los Angeles,Associate's,Ultimate Plan,,,
+820,22,Male,Houston,High School,Ultimate Plan,,,
+821,52,Male,Los Angeles,Associate's,Ultimate Plan,,,
+822,40,Female,Chicago,Master's,Standard Plan,,,
+823,46,Female,Chicago,Associate's,Basic Plan,,,
+824,60,Male,Houston,Bachelor's,Ultimate Plan,,,
+825,28,Female,Miami,Master's,Basic Plan,,,
+826,35,Female,Houston,Master's,Ultimate Plan,,,
+827,64,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+828,29,Female,Houston,High School,Standard Plan,,,
+829,26,Male,New York,Master's,Basic Plan,,,
+830,27,Male,Los Angeles,High School,Premium Plan,,,
+831,75,Female,Los Angeles,Master's,Ultimate Plan,,,
+832,61,Male,Miami,Master's,Basic Plan,,,
+833,34,Male,Chicago,High School,Ultimate Plan,,,
+834,78,Male,Los Angeles,Master's,Standard Plan,,,
+835,55,Female,Chicago,High School,Premium Plan,,,
+836,24,Female,Houston,Bachelor's,Basic Plan,,,
+837,63,Female,New York,High School,Standard Plan,,,
+838,30,Male,Miami,Bachelor's,Ultimate Plan,,,
+839,57,Female,Chicago,Master's,Basic Plan,,,
+840,59,Female,Los Angeles,High School,Standard Plan,,,
+841,26,Male,Chicago,Master's,Ultimate Plan,,,
+842,67,Female,Los Angeles,High School,Premium Plan,,,
+843,44,Female,Chicago,Bachelor's,Basic Plan,,,
+844,75,Male,Los Angeles,Bachelor's,Basic Plan,,,
+845,19,Male,Houston,High School,Premium Plan,,,
+846,22,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+847,46,Female,Los Angeles,Master's,Basic Plan,,,
+848,54,Female,New York,Master's,Basic Plan,,,
+849,55,Female,Los Angeles,Associate's,Premium Plan,,,
+850,36,Male,New York,Bachelor's,Standard Plan,,,
+851,25,Male,Miami,Master's,Standard Plan,,,
+852,65,Female,New York,High School,Premium Plan,,,
+853,62,Female,Houston,Bachelor's,Ultimate Plan,,,
+854,18,Male,New York,Master's,Standard Plan,,,
+855,39,Male,Miami,Bachelor's,Standard Plan,,,
+856,69,Male,Houston,High School,Standard Plan,,,
+857,34,Male,Chicago,Master's,Ultimate Plan,,,
+858,24,Female,Chicago,Associate's,Standard Plan,,,
+859,42,Male,New York,Associate's,Premium Plan,,,
+860,62,Female,New York,Bachelor's,Premium Plan,,,
+861,21,Female,Miami,High School,Standard Plan,,,
+862,53,Female,Miami,Master's,Ultimate Plan,,,
+863,23,Male,Los Angeles,High School,Basic Plan,,,
+864,77,Male,Miami,Master's,Standard Plan,,,
+865,48,Male,Los Angeles,Bachelor's,Standard Plan,,,
+866,36,Male,Houston,Master's,Premium Plan,,,
+867,78,Female,New York,High School,Standard Plan,,,
+868,61,Male,Houston,High School,Basic Plan,,,
+869,71,Male,Miami,Bachelor's,Ultimate Plan,,,
+870,56,Female,Houston,High School,Premium Plan,,,
+871,44,Male,Houston,Master's,Premium Plan,,,
+872,27,Female,Houston,Bachelor's,Basic Plan,,,
+873,43,Female,Miami,Master's,Ultimate Plan,,,
+874,36,Female,Houston,High School,Ultimate Plan,,,
+875,56,Female,Los Angeles,Bachelor's,Ultimate Plan,,,
+876,79,Female,Miami,Master's,Basic Plan,,,
+877,20,Female,Houston,High School,Ultimate Plan,,,
+878,62,Female,Miami,High School,Premium Plan,,,
+879,30,Female,Chicago,Associate's,Standard Plan,,,
+880,67,Male,Los Angeles,High School,Premium Plan,,,
+881,45,Male,Houston,Master's,Ultimate Plan,,,
+882,79,Male,Chicago,Bachelor's,Standard Plan,,,
+883,75,Male,Chicago,Associate's,Ultimate Plan,,,
+884,37,Female,Miami,High School,Ultimate Plan,,,
+885,45,Male,Chicago,High School,Standard Plan,,,
+886,25,Female,Los Angeles,High School,Premium Plan,,,
+887,78,Male,Los Angeles,Master's,Premium Plan,,,
+888,58,Male,New York,Associate's,Standard Plan,,,
+889,56,Male,Los Angeles,Master's,Ultimate Plan,,,
+890,18,Female,Chicago,Associate's,Ultimate Plan,,,
+891,20,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+892,30,Female,Miami,Master's,Premium Plan,,,
+893,45,Female,New York,Master's,Premium Plan,,,
+894,79,Male,Chicago,Bachelor's,Basic Plan,,,
+895,74,Male,New York,Associate's,Basic Plan,,,
+896,77,Male,Chicago,High School,Standard Plan,,,
+897,66,Female,Miami,Bachelor's,Premium Plan,,,
+898,42,Male,New York,High School,Basic Plan,,,
+899,73,Female,Houston,High School,Premium Plan,,,
+900,50,Female,Chicago,Bachelor's,Premium Plan,,,
+901,55,Male,Houston,Associate's,Premium Plan,,,
+902,70,Male,New York,High School,Basic Plan,,,
+903,23,Female,Houston,Bachelor's,Basic Plan,,,
+904,75,Female,Houston,Master's,Ultimate Plan,,,
+905,61,Female,New York,Master's,Basic Plan,,,
+906,62,Male,Miami,Master's,Premium Plan,,,
+907,49,Female,Houston,Bachelor's,Ultimate Plan,,,
+908,62,Male,Houston,Master's,Standard Plan,,,
+909,78,Female,Miami,High School,Ultimate Plan,,,
+910,64,Female,Houston,Master's,Standard Plan,,,
+911,38,Male,Houston,Master's,Premium Plan,,,
+912,33,Female,Houston,High School,Ultimate Plan,,,
+913,71,Male,Los Angeles,Master's,Standard Plan,,,
+914,38,Male,Miami,High School,Basic Plan,,,
+915,28,Female,Houston,Master's,Basic Plan,,,
+916,77,Male,Miami,High School,Basic Plan,,,
+917,54,Male,Chicago,Master's,Premium Plan,,,
+918,53,Female,Chicago,High School,Premium Plan,,,
+919,52,Male,Houston,Bachelor's,Premium Plan,,,
+920,36,Male,Miami,High School,Standard Plan,,,
+921,37,Male,Miami,Master's,Basic Plan,,,
+922,74,Female,Miami,Master's,Basic Plan,,,
+923,35,Male,Los Angeles,Associate's,Standard Plan,,,
+924,64,Female,Chicago,High School,Standard Plan,,,
+925,58,Female,Miami,Bachelor's,Basic Plan,,,
+926,66,Male,Miami,High School,Basic Plan,,,
+927,31,Male,Los Angeles,High School,Standard Plan,,,
+928,32,Male,Los Angeles,Bachelor's,Basic Plan,,,
+929,48,Female,Miami,High School,Premium Plan,,,
+930,18,Male,New York,Bachelor's,Premium Plan,,,
+931,70,Male,Miami,Bachelor's,Ultimate Plan,,,
+932,71,Male,Miami,High School,Standard Plan,,,
+933,71,Male,Los Angeles,High School,Basic Plan,,,
+934,20,Male,Los Angeles,Master's,Basic Plan,,,
+935,33,Female,Miami,Master's,Basic Plan,,,
+936,40,Female,Miami,Associate's,Standard Plan,,,
+937,74,Male,Miami,Associate's,Basic Plan,,,
+938,28,Male,Los Angeles,High School,Premium Plan,,,
+939,29,Male,Miami,Bachelor's,Basic Plan,,,
+940,27,Male,Miami,Associate's,Standard Plan,,,
+941,49,Female,Houston,High School,Ultimate Plan,,,
+942,33,Male,New York,Associate's,Ultimate Plan,,,
+943,25,Female,Chicago,Bachelor's,Standard Plan,,,
+944,55,Female,New York,High School,Basic Plan,,,
+945,29,Male,Houston,Bachelor's,Ultimate Plan,,,
+946,41,Female,Chicago,High School,Standard Plan,,,
+947,45,Female,Miami,Associate's,Basic Plan,,,
+948,70,Female,Houston,Master's,Premium Plan,,,
+949,25,Female,Miami,Associate's,Premium Plan,,,
+950,75,Male,Los Angeles,Associate's,Ultimate Plan,,,
+951,45,Male,Houston,Master's,Standard Plan,,,
+952,53,Female,Los Angeles,Master's,Basic Plan,,,
+953,43,Male,Houston,High School,Premium Plan,,,
+954,25,Male,Houston,High School,Basic Plan,,,
+955,75,Male,Los Angeles,Bachelor's,Premium Plan,,,
+956,77,Male,Chicago,Bachelor's,Standard Plan,,,
+957,67,Male,New York,Associate's,Premium Plan,,,
+958,45,Female,Miami,Master's,Standard Plan,,,
+959,45,Male,Houston,Bachelor's,Premium Plan,,,
+960,54,Male,Miami,Associate's,Ultimate Plan,,,
+961,58,Male,Los Angeles,Master's,Standard Plan,,,
+962,53,Male,Miami,High School,Basic Plan,,,
+963,44,Female,Los Angeles,Associate's,Premium Plan,,,
+964,71,Female,Miami,High School,Ultimate Plan,,,
+965,34,Female,New York,Bachelor's,Standard Plan,,,
+966,26,Female,New York,Bachelor's,Standard Plan,,,
+967,50,Male,New York,Master's,Basic Plan,,,
+968,70,Female,New York,Associate's,Premium Plan,,,
+969,37,Male,New York,High School,Premium Plan,,,
+970,30,Male,New York,Master's,Ultimate Plan,,,
+971,45,Male,Los Angeles,Bachelor's,Premium Plan,,,
+972,65,Male,Houston,Bachelor's,Basic Plan,,,
+973,46,Male,Miami,Associate's,Premium Plan,,,
+974,30,Female,New York,High School,Basic Plan,,,
+975,63,Female,Los Angeles,Associate's,Ultimate Plan,,,
+976,52,Female,Los Angeles,High School,Ultimate Plan,,,
+977,78,Female,Los Angeles,High School,Premium Plan,,,
+978,23,Male,Houston,Associate's,Premium Plan,,,
+979,35,Female,Miami,Master's,Premium Plan,,,
+980,68,Male,Houston,Associate's,Ultimate Plan,,,
+981,22,Female,Chicago,Associate's,Ultimate Plan,,,
+982,64,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+983,42,Male,Chicago,Bachelor's,Premium Plan,,,
+984,19,Female,New York,Associate's,Basic Plan,,,
+985,27,Male,New York,Associate's,Ultimate Plan,,,
+986,73,Male,Houston,Bachelor's,Basic Plan,,,
+987,47,Female,Miami,High School,Basic Plan,,,
+988,67,Male,Chicago,Associate's,Standard Plan,,,
+989,76,Female,Miami,Master's,Premium Plan,,,
+990,62,Female,Houston,Master's,Ultimate Plan,,,
+991,22,Female,New York,Master's,Premium Plan,,,
+992,72,Male,Miami,Associate's,Basic Plan,,,
+993,73,Male,Miami,High School,Standard Plan,,,
+994,50,Male,New York,High School,Premium Plan,,,
+995,71,Female,Chicago,Bachelor's,Basic Plan,,,
+996,18,Male,New York,Associate's,Ultimate Plan,,,
+997,35,Female,Miami,High School,Standard Plan,,,
+998,49,Female,Chicago,Associate's,Basic Plan,,,
+999,64,Male,Chicago,Bachelor's,Standard Plan,,,
+1000,66,Female,New York,Bachelor's,Ultimate Plan,,,
+4d8d3024-9c4a-461d-ac4b-25201fb99383,56,Male,Miami,High School,Ultimate Plan,,,
+e91a5ec9-e581-4982-bf39-c1b45227b217,21,Male,Los Angeles,Bachelor's,Ultimate Plan,,,
+a2e7bc81-09c0-492c-9148-7c2bcf5240eb,56,Male,Miami,High School,,Ultimate Plan,Ultimate Plan,Ultimate Plan
+6ccea25a-8bc8-41e2-825e-3a6f7f1d4da9,25,Female,Chicago,Bachelor's,,Ultimate Plan,Standard Plan,Premium Plan

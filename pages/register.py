@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from utils.auth import create_user 
 import uuid
-from utils.model import predict_plan, recommend_plan
+from utils.model import predict_plan, recommend_plan,recommend_plan_topsis,recommend_plan_ifs
 def show():
     st.title("Register Page")
 
@@ -23,8 +23,10 @@ def show():
             create_user(customer_id, email, password)
             st.success("Registration Successful!")
            
-            plan = recommend_plan(age,gender,location,education_level)
-            add_to_dataset(customer_id, age, gender, location, education_level,plan)
+            planTop=recommend_plan_topsis(age,gender,location,education_level)
+            planCos=recommend_plan(age,gender,location,education_level)
+            planIfs =recommend_plan_ifs(age,gender,location,education_level)
+            add_to_dataset(customer_id, age, gender, location, education_level,planTop,planCos,planIfs)
             st.session_state['current_page'] = 'Login'
             predict_plan()
             st.rerun()
@@ -32,10 +34,10 @@ def show():
             st.error(f"Registration Failed: {e}")
 
 def add_to_dataset(customer_id, age, gender, location, 
-                  education_level,plan):
+                  education_level,planTop,planCos,planIfs):
    
     columns = [
-        'Customer ID', 'Age', 'Gender', 'Location',  'Education Level', 'BestServiceName'
+        'Customer ID', 'Age', 'Gender', 'Location',  'Education Level', 'BestServiceNameTopsis','BestServiceNameCosine','BestServiceNameIFS'
     ]
     
     
@@ -47,7 +49,9 @@ def add_to_dataset(customer_id, age, gender, location,
         'Gender': gender,
         'Location': location,
         'Education Level': education_level,
-        'BestServiceName':plan
+        'BestServiceNameTopsis':planTop,
+        'BestServiceNameCosine':planCos,
+        'BestServiceNameIFS':planIfs
         
     }], columns=columns)
    

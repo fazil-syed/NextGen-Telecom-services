@@ -22,7 +22,9 @@ def show():
         
             st.write("**Customer Details:**")
             row_prediction = result.iloc[0]
-            st.write(f"**Best Service Recommended:** {row_prediction['BestServiceName']}")
+            st.write(f"**Best Service Recommended (Topsis):** {row_prediction['BestServiceNameTopsis']}")
+            st.write(f"**Best Service Recommended (IFS):** {row_prediction['BestServiceNameCosine']}")
+            st.write(f"**Best Service Recommended (cosine):** {row_prediction['BestServiceNameIFS']}")
             st.write(f"**Age:** {result.iloc[0]['Age']}")
             st.write(f"**Gender:** {result.iloc[0]['Gender']}")
             st.write(f"**Location:** {result.iloc[0]['Location']}")
