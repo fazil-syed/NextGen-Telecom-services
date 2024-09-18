@@ -169,11 +169,11 @@ def recommend_plan(age, gender, location, education_level):
 def convert_to_fuzzy(value, category):
     if category == 'age':
         if value <= 20:
-            return (0.2, 0.7, 0.1)  # Low membership in "young" group
+            return (0.2, 0.7, 0.1)  
         elif 20 < value <= 35:
-            return (0.7, 0.2, 0.1)  # High membership in "young adult" group
+            return (0.7, 0.2, 0.1)  
         else:
-            return (0.1, 0.8, 0.1)  # Low membership in "senior" group
+            return (0.1, 0.8, 0.1)  
     elif category == 'gender':
         return (1.0, 0.0, 0.0) if value == 'Male' else (0.0, 1.0, 0.0)
     elif category == 'location':
@@ -188,7 +188,7 @@ def convert_to_fuzzy(value, category):
         elif value == 'Houston':
             return (0.4, 0.5, 0.1)
         else:
-            return (0.2, 0.6, 0.2)  # Default for unknown locations
+            return (0.2, 0.6, 0.2)  
     elif category == 'education_level':
         if value == 'Bachelor':
             return (0.8, 0.1, 0.1)
@@ -197,13 +197,12 @@ def convert_to_fuzzy(value, category):
         else:
             return (0.3, 0.5, 0.2)
 
-# Function to flatten fuzzy values for use in Euclidean distance calculation
+
 def flatten_fuzzy_values(fuzzy_values):
     return [item for sublist in fuzzy_values for item in sublist]
 
-# Function to recommend a plan using Intuitionistic Fuzzy Sets (IFS)
 def recommend_plan_ifs(age, gender, location, education_level):
-    # Convert user input to fuzzy values
+  
     user_prefs = [
         convert_to_fuzzy(age, 'age'),
         convert_to_fuzzy(gender, 'gender'),
@@ -211,10 +210,10 @@ def recommend_plan_ifs(age, gender, location, education_level):
         convert_to_fuzzy(education_level, 'education_level')
     ]
     
-    # Flatten the user's fuzzy preferences
+
     user_prefs_flat = flatten_fuzzy_values(user_prefs)
     plans_df = pd.read_csv('plans_dataset.csv')
-    # Plan preferences should also be converted to fuzzy components (assumed already encoded)
+
     plan_prefs = [
         flatten_fuzzy_values([
             convert_to_fuzzy(row['Age'], 'age'), convert_to_fuzzy(row['Gender'], 'gender'), 
@@ -223,18 +222,19 @@ def recommend_plan_ifs(age, gender, location, education_level):
         for _, row in plans_df.iterrows()
     ]
     
-    # Calculate the Euclidean distance between the user's flattened fuzzy preferences and each plan
+
     distances = [euclidean(user_prefs_flat, plan) for plan in plan_prefs]
-    
-    # Find the plan with the smallest distance (closest match)
+
     most_similar_index = np.argmin(distances)
     return plans_df.iloc[most_similar_index]['BestServiceName']
 
-# Function to recommend a plan using Lean Six Sigma with TOPSIS
+
+
+
 def recommend_plan_topsis(age, gender, location, education_level):
     scaler = MinMaxScaler()
     plans_df = pd.read_csv('plans_dataset.csv')
-    # Encode the input and plan features
+
     input_data = pd.DataFrame([[age, gender, location, education_level]], 
                               columns=['Age', 'Gender', 'Location', 'Education Level'])
     
@@ -245,21 +245,19 @@ def recommend_plan_topsis(age, gender, location, education_level):
         input_data[column] = le.transform(input_data[column])
         label_encoders[column] = le
     
-    # Prepare plan features for normalization
+
     plan_prefs = plans_df[['Age', 'Gender', 'Location', 'Education Level']].values
-    
-    # Normalize the plan features (without feature names)
+
     normalized_plans = scaler.fit_transform(plan_prefs)
-    normalized_user = scaler.transform(input_data.to_numpy())  # Convert to numpy array
-    
-    # Calculate distance from ideal (best) and negative (worst) plans
+    normalized_user = scaler.transform(input_data.to_numpy())  
+   
     ideal_plan = np.max(normalized_plans, axis=0)
     negative_plan = np.min(normalized_plans, axis=0)
     
     distance_to_ideal = euclidean(normalized_user.flatten(), ideal_plan)
     distance_to_negative = euclidean(normalized_user.flatten(), negative_plan)
     
-    # Score based on proximity to the ideal plan
+
     scores = distance_to_negative / (distance_to_ideal + distance_to_negative)
     
     best_plan_index = np.argmax(scores)
