@@ -40,5 +40,5 @@ elif st.session_state['current_page'] == 'PlanAndAnalytics':
     plan_details_analytics.show()
 
 elif st.session_state['current_page'] == 'ChurnPrediction':
-    import pages.temp as churn_prediction
+    import pages.churn_prediction as churn_prediction
     churn_prediction.show()

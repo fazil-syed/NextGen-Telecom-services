@@ -97,7 +97,13 @@ def show():
 
             st.write("Churn Prediction Results:")
             st.dataframe(result_df)
+            total_customers = len(result_df)
+            churned_customers = result_df['Churn Label'].sum()  
+            churn_rate = (churned_customers / total_customers) * 100
 
+            st.write(f"Churn Rate: {churn_rate:.2f}%")
+            st.write(f"Total Customers: {total_customers}")
+            st.write(f"Customers Predicted to Churn: {churned_customers}")
 
             csv = result_df.to_csv(index=False).encode('utf-8')
             st.download_button(
